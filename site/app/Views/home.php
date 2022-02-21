@@ -1,324 +1,1338 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Welcome to CodeIgniter 4!</title>
-	<meta name="description" content="The small framework with powerful features">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<!-- STYLES -->
+    <!--twitter og-->
+    <meta name="twitter:site" content="@themetags">
+    <meta name="twitter:creator" content="@themetags">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quiety - Creative SAAS Technology & IT Solutions Bootstrap 5 HTML Template">
+    <meta name="twitter:description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
+    <meta name="twitter:image" content="#">
 
-	<style {csp-style-nonce}>
-		* {
-			transition: background-color 300ms ease, color 300ms ease;
-		}
-		*:focus {
-			background-color: rgba(221, 72, 20, .2);
-			outline: none;
-		}
-		html, body {
-			color: rgba(33, 37, 41, 1);
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-			font-size: 16px;
-			margin: 0;
-			padding: 0;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
-			text-rendering: optimizeLegibility;
-		}
-		header {
-			background-color: rgba(247, 248, 249, 1);
-			padding: .4rem 0 0;
-		}
-		.menu {
-			padding: .4rem 2rem;
-		}
-		header ul {
-			border-bottom: 1px solid rgba(242, 242, 242, 1);
-			list-style-type: none;
-			margin: 0;
-			overflow: hidden;
-			padding: 0;
-			text-align: right;
-		}
-		header li {
-			display: inline-block;
-		}
-		header li a {
-			border-radius: 5px;
-			color: rgba(0, 0, 0, .5);
-			display: block;
-			height: 44px;
-			text-decoration: none;
-		}
-		header li.menu-item a {
-			border-radius: 5px;
-			margin: 5px 0;
-			height: 38px;
-			line-height: 36px;
-			padding: .4rem .65rem;
-			text-align: center;
-		}
-		header li.menu-item a:hover,
-		header li.menu-item a:focus {
-			background-color: rgba(221, 72, 20, .2);
-			color: rgba(221, 72, 20, 1);
-		}
-		header .logo {
-			float: left;
-			height: 44px;
-			padding: .4rem .5rem;
-		}
-		header .menu-toggle {
-			display: none;
-			float: right;
-			font-size: 2rem;
-			font-weight: bold;
-		}
-		header .menu-toggle button {
-			background-color: rgba(221, 72, 20, .6);
-			border: none;
-			border-radius: 3px;
-			color: rgba(255, 255, 255, 1);
-			cursor: pointer;
-			font: inherit;
-			font-size: 1.3rem;
-			height: 36px;
-			padding: 0;
-			margin: 11px 0;
-			overflow: visible;
-			width: 40px;
-		}
-		header .menu-toggle button:hover,
-		header .menu-toggle button:focus {
-			background-color: rgba(221, 72, 20, .8);
-			color: rgba(255, 255, 255, .8);
-		}
-		header .heroe {
-			margin: 0 auto;
-			max-width: 1100px;
-			padding: 1rem 1.75rem 1.75rem 1.75rem;
-		}
-		header .heroe h1 {
-			font-size: 2.5rem;
-			font-weight: 500;
-		}
-		header .heroe h2 {
-			font-size: 1.5rem;
-			font-weight: 300;
-		}
-		section {
-			margin: 0 auto;
-			max-width: 1100px;
-			padding: 2.5rem 1.75rem 3.5rem 1.75rem;
-		}
-		section h1 {
-			margin-bottom: 2.5rem;
-		}
-		section h2 {
-			font-size: 120%;
-			line-height: 2.5rem;
-			padding-top: 1.5rem;
-		}
-		section pre {
-			background-color: rgba(247, 248, 249, 1);
-			border: 1px solid rgba(242, 242, 242, 1);
-			display: block;
-			font-size: .9rem;
-			margin: 2rem 0;
-			padding: 1rem 1.5rem;
-			white-space: pre-wrap;
-			word-break: break-all;
-		}
-		section code {
-			display: block;
-		}
-		section a {
-			color: rgba(221, 72, 20, 1);
-		}
-		section svg {
-			margin-bottom: -5px;
-			margin-right: 5px;
-			width: 25px;
-		}
-		.further {
-			background-color: rgba(247, 248, 249, 1);
-			border-bottom: 1px solid rgba(242, 242, 242, 1);
-			border-top: 1px solid rgba(242, 242, 242, 1);
-		}
-		.further h2:first-of-type {
-			padding-top: 0;
-		}
-		footer {
-			background-color: rgba(221, 72, 20, .8);
-			text-align: center;
-		}
-		footer .environment {
-			color: rgba(255, 255, 255, 1);
-			padding: 2rem 1.75rem;
-		}
-		footer .copyrights {
-			background-color: rgba(62, 62, 62, 1);
-			color: rgba(200, 200, 200, 1);
-			padding: .25rem 1.75rem;
-		}
-		@media (max-width: 629px) {
-			header ul {
-				padding: 0;
-			}
-			header .menu-toggle {
-				padding: 0 1rem;
-			}
-			header .menu-item {
-				background-color: rgba(244, 245, 246, 1);
-				border-top: 1px solid rgba(242, 242, 242, 1);
-				margin: 0 15px;
-				width: calc(100% - 30px);
-			}
-			header .menu-toggle {
-				display: block;
-			}
-			header .hidden {
-				display: none;
-			}
-			header li.menu-item a {
-				background-color: rgba(221, 72, 20, .1);
-			}
-			header li.menu-item a:hover,
-			header li.menu-item a:focus {
-				background-color: rgba(221, 72, 20, .7);
-				color: rgba(255, 255, 255, .8);
-			}
-		}
-	</style>
+    <!--facebook og-->
+    <meta property="og:url" content="#">
+    <meta name="twitter:title" content="Quiety - Creative SAAS Technology & IT Solutions Bootstrap 5 HTML Template">
+    <meta property="og:description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
+    <meta property="og:image" content="#">
+    <meta property="og:image:secure_url" content="#">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!--meta-->
+    <meta name="description" content="Quiety creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
+    <meta name="author" content="ThemeTags">
+
+    <!--favicon icon-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+
+    <!--title-->
+    <title>Simplix Marcas</title>
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+
+    <!--build:css-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- endbuild -->
+
+    <!--custom css start-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!--custom css end-->
+
 </head>
+
 <body>
 
-<!-- HEADER: MENU + HEROE SECTION -->
-<header>
+    <!--preloader start-->
+    <div id="preloader">
+        <div class="preloader-wrap">
+            <img src="assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon" />
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+    <!--preloader end-->
+    <!--main content wrapper start-->
+    <div class="main-wrapper">
 
-	<div class="menu">
-		<ul>
-			<li class="logo"><a href="https://codeigniter.com" target="_blank"><img height="44" title="CodeIgniter Logo"
-																					alt="Visit CodeIgniter.com official website!"
-																					src="data:image/png;base64,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"></a>
-			</li>
-			<li class="menu-toggle">
-				<button onclick="toggleMenu();">&#9776;</button>
-			</li>
-			<li class="menu-item hidden"><a href="#">Home</a></li>
-			<li class="menu-item hidden"><a href="https://codeigniter4.github.io/userguide/" target="_blank">Docs</a>
-			</li>
-			<li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
-			<li class="menu-item hidden"><a
-					href="https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md" target="_blank">Contribute</a>
-			</li>
-		</ul>
-	</div>
+        <!--header section start-->
+        <header class="main-header w-100">
+            <nav class="navbar navbar-expand-xl navbar-light sticky-header">
+                <div class="container d-flex align-items-center justify-content-lg-between position-relative">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                        <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white" />
+                        <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
+                    </a>
 
-	<div class="heroe">
+                    <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop" role="button">
+                        <span class="far fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></span>
+                    </a>
+                    <div class="clearfix"></div>
+                    <div class="collapse navbar-collapse justify-content-center">
+                        <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                    <div class="dropdown-grid rounded-custom width-half">
+                                        <div class="dropdown-grid-item">
+                                            <h6 class="drop-heading">Different Home</h6>
+                                            <a href="index.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">1</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Saas Company 1</div>
+                                                    <p>It's for <strong>SaaS Software</strong> Company</p>
+                                                </div>
+                                            </a>
+                                            <a href="index-2.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">2</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Saas Company 2</div>
+                                                    <p>Modern <strong>Saas agency</strong></p>
+                                                </div>
+                                            </a>
+                                            <a href="index-3.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">3</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Desktop App</div>
+                                                    <p><strong>Web Software</strong> Company</p>
+                                                </div>
+                                            </a>
+                                            <a href="index-4.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">4</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">App Landing</div>
+                                                    <p>App and <strong>Software</strong> Landing</p>
+                                                </div>
+                                            </a>
+                                            <a href="index-5.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">5</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Software Application</div>
+                                                    <p>IT solutions and <strong>SaaS Application</strong></p>
+                                                </div>
+                                            </a>
 
-		<h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+                                            <a href="index-6.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">6</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Startup Agency</div>
+                                                    <p>Different type of <strong>Agency</strong>&lrm;</p>
+                                                </div>
+                                            </a>
+                                            <a href="index-7.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">7</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Data Analysis</div>
+                                                    <p>Software & <strong>Data Analysis</strong>&lrm;</p>
+                                                </div>
+                                            </a>
+                                            <a href="index-8.html" class="dropdown-link">
+                                                <span class="demo-list bg-primary rounded text-white fw-bold">8</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">App Landing Two</div>
+                                                    <p>Software & <strong>Data Analysis</strong>&lrm;</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="services.html" class="nav-link">Services</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                    <div class="dropdown-grid rounded-custom width-full-3">
+                                        <div class="dropdown-grid-item">
+                                            <h6 class="drop-heading">Reusable Section</h6>
+                                            <a href="header.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-bars"></i></span>
+                                                <div class="drop-title">Navigations</div>
+                                            </a>
+                                            <a href="hero-sections.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-browser"></i></span>
+                                                <div class="drop-title">Hero Sections</div>
+                                            </a>
+                                            <a href="testimonials.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-address-card"></i></span>
+                                                <div class="drop-title">Testimonials</div>
+                                            </a>
+                                            <a href="call-to-action.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-bolt"></i></span>
+                                                <div class="drop-title">Call to Action</div>
+                                            </a>
+                                            <a href="tab-style.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-eject"></i></span>
+                                                <div class="drop-title">Tab Style</div>
+                                            </a>
+                                            <a href="services-style.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-code-branch"></i></span>
+                                                <div class="drop-title">Services Style</div>
+                                            </a>
+                                            <a href="work-process.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-hourglass-start"></i></span>
+                                                <div class="drop-title">Work Process</div>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-grid-item">
+                                            <h6 class="drop-heading">Reusable Section</h6>
+                                            <a href="pricing-style.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-usd-square"></i></span>
+                                                <div class="drop-title">Pricing Style</div>
+                                            </a>
+                                            <a href="accordions.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-th-list"></i></span>
+                                                <div class="drop-title">Accordions</div>
+                                            </a>
+                                            <a href="features.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-chart-network"></i></span>
+                                                <div class="drop-title">Features</div>
+                                            </a>
+                                            <a href="footers.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-closed-captioning"></i></span>
+                                                <div class="drop-title">Footers</div>
+                                            </a>
 
-		<h2>The small framework with powerful features</h2>
+                                            <a href="team.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-user"></i></span>
+                                                <div class="drop-title">Our Team</div>
+                                            </a>
+                                            <a href="integration-style.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-paper-plane"></i></span>
+                                                <div class="drop-title">Integration Style</div>
+                                            </a>
+                                            <a href="blog-style.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-th-large"></i></span>
+                                                <div class="drop-title">Blog Style</div>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-grid-item last-item bg-light radius-right-side">
+                                            <a href="#"><img src="assets/img/feature-img3.jpg" alt="add" class="img-fluid rounded-custom" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                    <div class="dropdown-grid rounded-custom width-full">
+                                        <div class="dropdown-grid-item">
+                                            <h6 class="drop-heading">Useful Links</h6>
+                                            <a href="about-us.html" class="dropdown-link px-0">
+                                                <span class="me-2"><i class="far fa-fingerprint"></i></span>
+                                                <div class="drop-title">About Us</div>
+                                            </a>
+                                            <a href="contact-us.html" class="dropdown-link px-0">
+                                                <span class="me-2"><i class="far fa-address-book"></i></span>
+                                                <div class="drop-title">Contact Us</div>
+                                            </a>
+                                            <a href="services.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-code-branch"></i></span>
+                                                <div class="drop-title">Services</div>
+                                            </a>
+                                            <a href="service-single.html" class="dropdown-link px-0">
+                                                <span class="me-2"><i class="far fa-server"></i></span>
+                                                <div class="drop-title">Services Single</div>
+                                            </a>
+                                            <a href="blog.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-th-large"></i></span>
+                                                <div class="drop-title">Our Latest News</div>
+                                            </a>
+                                            <a href="blog-single.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-bars"></i></span>
+                                                <div class="drop-title">News Details</div>
+                                            </a>
+                                            <a href="career.html" class="dropdown-link px-0">
+                                                <span class="me-2"><i class="far fa-graduation-cap"></i></span>
+                                                <div class="drop-title">Career</div>
+                                            </a>
+                                            <a href="career-single.html" class="dropdown-link px-0">
+                                                <span class="me-2"><i class="far fa-user-graduate"></i></span>
+                                                <div class="drop-title">Career Single</div>
+                                            </a>
+                                            <a href="integrations.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-rocket-launch"></i></span>
+                                                <div class="drop-title">Integrations</div>
+                                            </a>
+                                            <a href="integration-single.html" class="dropdown-link px-0">
+                                                <span class="me-2"><i class="far fa-paper-plane"></i></span>
+                                                <div class="drop-title">Integration Single</div>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-grid-item radius-right-side bg-light">
+                                            <h6 class="drop-heading">Utility Pages</h6>
+                                            <a href="style-guide.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-code-branch"></i></span>
+                                                <div class="drop-title">Style Guide</div>
+                                            </a>
+                                            <a href="support.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-life-ring"></i></span>
+                                                <div class="drop-title">Help Center</div>
+                                            </a>
+                                            <a href="support-single.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-headset"></i></span>
+                                                <div class="drop-title">Help Details</div>
+                                            </a>
+                                            <a href="request-demo.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-laptop-code"></i></span>
+                                                <div class="drop-title">Request for Demo</div>
+                                            </a>
+                                            <a href="login.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-sign-in"></i></span>
+                                                <div class="drop-title">User Login</div>
+                                            </a>
+                                            <a href="register.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-user-plus"></i></span>
+                                                <div class="drop-title">User SignUp</div>
+                                            </a>
+                                            <a href="password-reset.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-trash-undo"></i></span>
+                                                <div class="drop-title">Recovery Account</div>
+                                            </a>
+                                            <a href="404.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-exclamation-triangle"></i></span>
+                                                <div class="drop-title">404 Page</div>
+                                            </a>
+                                            <a href="coming-soon.html" class="dropdown-link">
+                                                <span class="me-2"><i class="far fa-clock"></i></span>
+                                                <div class="drop-title">Coming Soon</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-	</div>
+                    <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
+                        <a href="login.html" class="btn btn-link text-decoration-none me-2">Sign In</a>
+                        <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                    </div>
 
-</header>
+                    <!--offcanvas menu start-->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
+                        <div class="offcanvas-header d-flex align-items-center mt-4">
+                            <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
+                                <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2" />
+                            </a>
+                            <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <i class="far fa-close"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <div class=" dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                        <div class="dropdown-grid rounded-custom width-half">
+                                            <div class="dropdown-grid-item">
+                                                <h6 class="drop-heading">Different Home</h6>
+                                                <a href="index.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">1</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">Saas Company 1</div>
+                                                        <p>It's for <strong>SaaS Software</strong> Company</p>
+                                                    </div>
+                                                </a>
+                                                <a href="index-2.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">2</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">Saas Company 2</div>
+                                                        <p>Modern <strong>Saas agency</strong></p>
+                                                    </div>
+                                                </a>
+                                                <a href="index-3.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">3</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">Desktop App</div>
+                                                        <p><strong>Web Software</strong> Company</p>
+                                                    </div>
+                                                </a>
+                                                <a href="index-4.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">4</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">App Landing</div>
+                                                        <p>App and <strong>Software</strong> Landing</p>
+                                                    </div>
+                                                </a>
+                                                <a href="index-5.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">5</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">Software Application</div>
+                                                        <p>
+                                                            IT solutions and <strong>SaaS Application</strong>
+                                                        </p>
+                                                    </div>
+                                                </a>
 
-<!-- CONTENT -->
+                                                <a href="index-6.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">6</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">Startup Agency</div>
+                                                        <p>Different type of <strong>Agency</strong>&lrm;</p>
+                                                    </div>
+                                                </a>
+                                                <a href="index-7.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">7</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">Data Analysis</div>
+                                                        <p>Software & <strong>Data Analysis</strong>&lrm;</p>
+                                                    </div>
+                                                </a>
+                                                <a href="index-8.html" class="dropdown-link">
+                                                    <span class="demo-list bg-primary rounded text-white fw-bold">8</span>
+                                                    <div class="dropdown-info">
+                                                        <div class="drop-title">App Landing Two</div>
+                                                        <p>Software & <strong>App Landing Two</strong>&lrm;</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="services.html" class="nav-link">Services</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                                    <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                        <div class="dropdown-grid rounded-custom width-full-3">
+                                            <div class="dropdown-grid-item">
+                                                <h6 class="drop-heading">Reusable Section</h6>
+                                                <a href="header.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-bars"></i></span>
+                                                    <div class="drop-title">Navigations</div>
+                                                </a>
+                                                <a href="hero-sections.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-browser"></i></span>
+                                                    <div class="drop-title">Hero Sections</div>
+                                                </a>
+                                                <a href="testimonials.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-address-card"></i></span>
+                                                    <div class="drop-title">Testimonials</div>
+                                                </a>
+                                                <a href="call-to-action.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-bolt"></i></span>
+                                                    <div class="drop-title">Call to Action</div>
+                                                </a>
+                                                <a href="tab-style.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-eject"></i></span>
+                                                    <div class="drop-title">Tab Style</div>
+                                                </a>
+                                                <a href="services-style.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-code-branch"></i></span>
+                                                    <div class="drop-title">Services Style</div>
+                                                </a>
+                                                <a href="work-process.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-hourglass-start"></i></span>
+                                                    <div class="drop-title">Work Process</div>
+                                                </a>
+                                            </div>
+                                            <div class="dropdown-grid-item">
+                                                <h6 class="drop-heading">Reusable Section</h6>
+                                                <a href="pricing-style.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-usd-square"></i></span>
+                                                    <div class="drop-title">Pricing Style</div>
+                                                </a>
+                                                <a href="accordions.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-th-list"></i></span>
+                                                    <div class="drop-title">Accordions</div>
+                                                </a>
+                                                <a href="features.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-chart-network"></i></span>
+                                                    <div class="drop-title">Features</div>
+                                                </a>
+                                                <a href="footers.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-closed-captioning"></i></span>
+                                                    <div class="drop-title">Footers</div>
+                                                </a>
 
-<section>
+                                                <a href="team.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-user"></i></span>
+                                                    <div class="drop-title">Our Team</div>
+                                                </a>
+                                                <a href="integration-style.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-paper-plane"></i></span>
+                                                    <div class="drop-title">Integration Style</div>
+                                                </a>
+                                                <a href="blog-style.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-th-large"></i></span>
+                                                    <div class="drop-title">Blog Style</div>
+                                                </a>
+                                            </div>
+                                            <div class="dropdown-grid-item last-item bg-light radius-right-side">
+                                                <a href="#"><img src="assets/img/feature-img3.jpg" alt="add" class="img-fluid rounded-custom" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+                                    <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                        <div class="dropdown-grid rounded-custom width-full">
+                                            <div class="dropdown-grid-item">
+                                                <h6 class="drop-heading">Useful Links</h6>
+                                                <a href="about-us.html" class="dropdown-link px-0">
+                                                    <span class="me-2"><i class="far fa-fingerprint"></i></span>
+                                                    <div class="drop-title">About Us</div>
+                                                </a>
+                                                <a href="contact-us.html" class="dropdown-link px-0">
+                                                    <span class="me-2"><i class="far fa-address-book"></i></span>
+                                                    <div class="drop-title">Contact Us</div>
+                                                </a>
+                                                <a href="services.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-code-branch"></i></span>
+                                                    <div class="drop-title">Services</div>
+                                                </a>
+                                                <a href="service-single.html" class="dropdown-link px-0">
+                                                    <span class="me-2"><i class="far fa-server"></i></span>
+                                                    <div class="drop-title">Services Single</div>
+                                                </a>
+                                                <a href="blog.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-th-large"></i></span>
+                                                    <div class="drop-title">Our Latest News</div>
+                                                </a>
+                                                <a href="blog-single.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-bars"></i></span>
+                                                    <div class="drop-title">News Details</div>
+                                                </a>
+                                                <a href="career.html" class="dropdown-link px-0">
+                                                    <span class="me-2"><i class="far fa-graduation-cap"></i></span>
+                                                    <div class="drop-title">Career</div>
+                                                </a>
+                                                <a href="career-single.html" class="dropdown-link px-0">
+                                                    <span class="me-2"><i class="far fa-user-graduate"></i></span>
+                                                    <div class="drop-title">Career Single</div>
+                                                </a>
+                                                <a href="integrations.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-rocket-launch"></i></span>
+                                                    <div class="drop-title">Integrations</div>
+                                                </a>
+                                                <a href="integration-single.html" class="dropdown-link px-0">
+                                                    <span class="me-2"><i class="far fa-paper-plane"></i></span>
+                                                    <div class="drop-title">Integration Single</div>
+                                                </a>
+                                            </div>
+                                            <div class="dropdown-grid-item radius-right-side bg-light">
+                                                <h6 class="drop-heading">Utility Pages</h6>
+                                                <a href="style-guide.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-code-branch"></i></span>
+                                                    <div class="drop-title">Style Guide</div>
+                                                </a>
+                                                <a href="support.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-life-ring"></i></span>
+                                                    <div class="drop-title">Help Center</div>
+                                                </a>
+                                                <a href="support-single.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-headset"></i></span>
+                                                    <div class="drop-title">Help Details</div>
+                                                </a>
+                                                <a href="request-demo.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-laptop-code"></i ></span>
+                                                    <div class="drop-title">Request for Demo</div>
+                                                </a>
+                                                <a href="login.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-sign-in"></i></span>
+                                                    <div class="drop-title">User Login</div>
+                                                </a>
+                                                <a href="register.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-user-plus"></i></span>
+                                                    <div class="drop-title">User SignUp</div>
+                                                </a>
+                                                <a href="password-reset.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-trash-undo"></i></span>
+                                                    <div class="drop-title">Recovery Account</div>
+                                                </a>
+                                                <a href="404.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-exclamation-triangle"></i></span>
+                                                    <div class="drop-title">404 Page</div>
+                                                </a>
+                                                <a href="coming-soon.html" class="dropdown-link">
+                                                    <span class="me-2"><i class="far fa-clock"></i></span>
+                                                    <div class="drop-title">Coming Soon</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="action-btns mt-4 ps-3">
+                                <a href="login.html" class="btn btn-outline-primary me-2">Sign In</a>
+                                <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--offcanvas menu end-->
+                </div>
+            </nav>
+        </header>
+        <!--header section end-->
 
-	<h1>About this page</h1>
+        <!--hero section start-->
+        <section class="hero-section ptb-120" style="background: url('assets/img/shape/dot-dot-wave-shape.svg')no-repeat bottom center">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="hero-content-wrap text-center text-xl-start text-lg-start" data-aos="fade-right">
+                            <h1 class="fw-bold display-5">Powerful Solutions for Your Business</h1>
+                            <p class="lead">Proactively coordinate quality quality vectors vis-a-vis supply chains client-centric web services.</p>
+                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
+                                <form id="subscribe-form" name="email-form" class="hero-subscribe-form d-block d-lg-flex d-md-flex">
+                                    <input type="email" class="form-control me-2" name="Email" data-name="Email" placeholder="Enter Your Email Address" id="email-address" required="">
+                                    <input type="submit" value="Subscribe" data-wait="Please wait..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                </form>
+                                <ul class="nav subscribe-feature-list mt-3">
+                                    <li class="nav-item">
+                                        <span class="ms-0"><i class="far fa-check-circle text-primary me-2"></i>Free 14-day trial</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span><i
+                                                class="far fa-check-circle text-primary me-2"></i>No credit card required</span>
+                                    </li>
+                                </ul>
+                            </div>
 
-	<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 mt-4 mt-xl-0">
+                        <div class="hero-img-wrap position-relative" data-aos="fade-left">
+                            <!--animated shape start-->
+                            <ul class="position-absolute animate-element parallax-element shape-service hide-medium">
+                                <li class="layer" data-depth="0.03">
+                                    <img src="assets/img/color-shape/image-1.svg" alt="shape" class="img-fluid position-absolute color-shape-1">
+                                </li>
+                                <li class="layer" data-depth="0.02">
+                                    <img src="assets/img/color-shape/feature-2.svg" alt="shape" class="img-fluid position-absolute color-shape-2 z-5">
+                                </li>
+                                <li class="layer" data-depth="0.03">
+                                    <img src="assets/img/color-shape/feature-3.svg" alt="shape" class="img-fluid position-absolute color-shape-3">
+                                </li>
+                            </ul>
+                            <!--animated shape end-->
+                            <div class="hero-img-wrap position-relative">
+                                <div class="hero-screen-wrap">
+                                    <div class="phone-screen">
+                                        <img src="assets/img/screen/phone-screen.png" alt="hero image" class="position-relative img-fluid">
+                                    </div>
+                                    <div class="mac-screen">
+                                        <img src="assets/img/screen/mac-screen.png" alt="hero image" class="position-relative img-fluid rounded-custom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--hero section end-->
 
-	<p>If you would like to edit this page you will find it located at:</p>
+        <!--promo section start-->
+        <div class="customer-section pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-12">
+                        <ul class="customer-logos-grid text-center list-unstyled mb-0">
+                            <li>
+                                <img src="assets/img/clients/client-logo-1.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-2.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="50">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-3.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="100">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-4.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="150">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-5.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="200">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-6.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="250">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-7.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="300">
+                            </li>
+                            <li>
+                                <img src="assets/img/clients/client-logo-8.svg" width="150" alt="clients logo" class="img-fluid customer-logo-gray p-1 p-md-2 p-lg-3 m-auto" data-aos="fade-up" data-aos-delay="350">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--promo section end-->
 
-	<pre><code>app/Views/welcome_message.php</code></pre>
+        <!--customers section start-->
+        <section class="promo-section ptb-120 bg-light ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6">
+                        <div class="section-heading text-center" data-aos="fade-up">
+                            <h2>Our Customers Get Results</h2>
+                            <p>Progressively deploy market positioning catalysts for change and technically sound. Authoritatively with backward-compatible e-services. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mt-4 mt-lg-0 mt-md-0">
+                        <div class="bg-dark p-5 text-center d-flex flex-column h-100 rounded-custom" data-aos="fade-up" data-aos-delay="100">
+                            <div class="promo-card-info mb-4">
+                                <h3 class="display-5 fw-bold mb-4"><i class="far fa-fingerprint text-warning me-2"></i> 10x
+                                </h3>
+                                <p>Embrace distinctive best practices after B2B syndicate backend internal or whereas edge process improvements. </p>
+                            </div>
+                            <div class="mt-auto">
+                                <img src="assets/img/clients/client-logo-4.svg" width="120" alt="clients" class="img-fluid me-auto customer-logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4 mt-lg-0 mt-md-0">
+                        <div class="bg-dark p-5 text-center d-flex flex-column h-100 rounded-custom" data-aos="fade-up" data-aos-delay="150">
+                            <div class="promo-card-info mb-4">
+                                <h3 class="display-5 fw-bold mb-4"><i class="far fa-paper-plane text-warning me-2"></i> 5k
+                                </h3>
+                                <p>Rapidiously embrace distinctive best practices B2B syndicate backend internal or whereas process improvements. </p>
+                            </div>
+                            <div class="mt-auto">
+                                <img src="assets/img/clients/client-logo-2.svg" width="120" alt="clients" class="img-fluid me-auto customer-logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4 mt-lg-0">
+                        <div class="bg-dark p-5 text-center d-flex flex-column h-100 rounded-custom" data-aos="fade-up" data-aos-delay="200">
+                            <div class="promo-card-info mb-4">
+                                <h3 class="display-5 fw-bold mb-4"><i class="far fa-chart-pie-alt text-warning me-2"></i> 95%
+                                </h3>
+                                <p>Distinctive best practices after B2B syndicate internal or whereas bleeding-edge process improvements. </p>
+                            </div>
+                            <div class="mt-auto">
+                                <img src="assets/img/clients/client-logo-3.svg" width="120" alt="clients" class="img-fluid me-auto customer-logo">
+                            </div>
+                        </div>
+                    </div>
 
-	<p>The corresponding controller for this page can be found at:</p>
+                </div>
+            </div>
+        </section>
+        <!--customers section end-->
 
-	<pre><code>app/Controllers/Home.php</code></pre>
+        <!--feature section start-->
+        <section class="feature-section-two ptb-120">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="section-heading" data-aos="fade-up">
+                            <h4 class="h5 text-primary">Features</h4>
+                            <h2>Powerful Solutions for Your Business Needs</h2>
+                            <p>Quickly incubate functional channels with multidisciplinary architectures authoritatively fabricate.
+                            </p>
+                            <ul class="list-unstyled mt-5">
+                                <li class="d-flex align-items-start mb-4">
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fas fa-bezier-curve text-white"></i>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h3 class="h5">Pixel Perfect Design</h3>
+                                        <p>Progressively foster enterprise-wide systems whereas equity invested web-readiness harness installed.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-start mb-4">
+                                    <div class="icon-box bg-danger rounded me-4">
+                                        <i class="fas fa-fingerprint text-white"></i>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h3 class="h5">Unique &amp; Minimal Design</h3>
+                                        <p>Dramatically administrate progressive metrics without error-free globally simplify standardized.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                        <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
+                            <ul class="img-overlay-list list-unstyled position-absolute">
+                                <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="50">
+                                    <i class="fas fa-check bg-primary text-white rounded-circle"></i>
+                                    <h6 class="mb-0">Create a Free Account</h6>
+                                </li>
+                                <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="100">
+                                    <i class="fas fa-check bg-primary text-white rounded-circle"></i>
+                                    <h6 class="mb-0">Install Our Tracking Pixel</h6>
+                                </li>
+                                <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="150">
+                                    <i class="fas fa-check bg-primary text-white rounded-circle"></i>
+                                    <h6 class="mb-0">Start Tracking your Website</h6>
+                                </li>
+                            </ul>
+                            <img src="assets/img/feature-img3.jpg" alt="feature image" class="img-fluid rounded-custom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--feature section end-->
 
-</section>
+        <!--feature section start-->
+        <section class="feature-section two-bg-dark-light ptb-120">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="image-wrap mb-5 mb-md-0 mb-lg-0 mb-xl-0" data-aos="fade-up">
+                            <img src="assets/img/dashboard-img.png" alt="feature img" class="img-fluid shadow rounded-custom">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="feature-content-wrap" data-aos="fade-up" data-aos-delay="50">
+                            <h4 class="h5 text-primary">Advanced Features</h4>
+                            <h2>Actionable Sale Reports to Grow your Business</h2>
+                            <p>Intrinsicly network transparent services whereas B2C ROI. Globally create installed base quality vectors after innovative. </p>
+                            <ul class="list-unstyled mt-5">
+                                <li class="d-flex align-items-start mb-4">
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fas fa-bezier-curve text-white"></i>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h3 class="h5">Pixel Perfect Design</h3>
+                                        <p>Progressively foster enterprise-wide systems whereas equity invested web-readiness harness installed.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-start mb-4">
+                                    <div class="icon-box bg-danger rounded me-4">
+                                        <i class="fas fa-fingerprint text-white"></i>
+                                    </div>
+                                    <div class="icon-content">
+                                        <h3 class="h5">Unique &amp; Minimal Design</h3>
+                                        <p>Dramatically administrate progressive metrics without error-free globally simplify standardized.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--feature section end-->
 
-<div class="further">
+        <!--our work process start-->
+        <section class="work-process ptb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="section-heading text-center" data-aos="fade-up">
+                            <h4 class="h5 text-primary">Process</h4>
+                            <h2>We Follow Our Work Process</h2>
+                            <p>Enthusiastically engage cross-media leadership skills for alternative experiences. Proactively drive vertical systems than intuitive architectures.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-5 col-md-12 order-1 order-lg-0">
+                        <div class="img-wrap" data-aos="fade-up" data-aos-delay="50">
+                            <img src="assets/img/office-img-1.jpg" alt="work process" class="img-fluid rounded-custom">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-0 order-lg-1">
+                        <ul class="work-process-list list-unstyled">
+                            <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="50">
+                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                    <i class="far fa-folder-tree fa-2x"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <span class="text-primary h6">Step 1</span>
+                                    <h3 class="h5 mb-2">Research and Content Planing</h3>
+                                    <p>Progressively foster enterprise-wide systems whereas equity invested web-readiness harness installed base bandwidth.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="100">
+                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                    <i class="far fa-bezier-curve fa-2x"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <span class="text-primary h6">Step 2</span>
+                                    <h3 class="h5 mb-2">Publishing and Execution</h3>
+                                    <p>Dramatically administrate progressive metrics without error-free globally simplify standardized alignments plagiarize distributed.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="150">
+                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                    <i class="far fa-layer-group fa-2x"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <span class="text-primary h6">Step 3</span>
+                                    <h3 class="h5 mb-2">Product Prototyping</h3>
+                                    <p>Interactively whiteboard transparent testing procedures before bricks-and-clicks initiatives administrate competencies.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                                <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                    <i class="far fa-truck fa-2x"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <span class="text-primary h6">Step 4</span>
+                                    <h3 class="h5 mb-2">Deliver the Final Product</h3>
+                                    <p>Dramatically plagiarize distributed progressive metrics without error-free globally simplify standardized alignments.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--our work process end-->
 
-	<section>
+        <!--customer review slider section start-->
+        <section class="testimonial-section bg-dark text-white  ptb-120">
+            <div class="container">
+                <div class="row justify-content-center align-content-center">
+                    <div class="col-md-10 col-lg-6">
+                        <div class="section-heading text-center" data-aos="fade-up">
+                            <h4 class="h5 text-warning text-primary">Testimonial</h4>
+                            <h2>What They Say About Us</h2>
+                            <p>Uniquely promote adaptive quality vectors rather than stand-alone e-markets. pontificate alternative architectures whereas iterate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="position-relative w-100" data-aos="fade-up" data-aos-delay="50">
+                            <div class="swiper-container testimonialSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="assets/img/testimonial/1.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Mr.Rupan Oberoi</h6>
+                                                <small>Founder and CEO at Amaara Herbs</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>The Best Template You Got to Have it!</h6>
+                                            Globally network long term high impact schemas cross-media infrastructures rather than ethical core competencies.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="assets/img/testimonial/3.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Oberoi R.</h6>
+                                                <small>CEO at Herbs</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>Embarrassed by the First Version.</h6>
+                                            Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="assets/img/testimonial/2.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Mr.Rupan Oberoi</h6>
+                                                <small>Founder and CEO</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>Amazing Quiety template!</h6>
+                                            Appropriately negotiate interactive niches rather than parallel strategic theme premium total linkage areas.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="assets/img/testimonial/4.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Joan Dho</h6>
+                                                <small>Founder and CTO</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>Best Template for SAAS Company!</h6>
+                                            Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="assets/img/testimonial/5.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Ranu Mondal</h6>
+                                                <small>Lead Developer</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>It is undeniably good!</h6>
+                                            Rapidiously supply client-centric e-markets and maintainable processes progressively extend process-centric portals engineer
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="swiper-button-next"></span>
+                            <span class="swiper-button-prev"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--customer review slider section end-->
 
-		<h1>Go further</h1>
+        <!--integration section start-->
+        <section class="integration-section  ptb-120">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="section-heading">
+                            <h4 class="h5 text-primary">Integration</h4>
+                            <h2>We Collaborate with Top Software Company</h2>
+                            <p>Dynamically pursue convergence rather than 24/7 process improvements develop end-to-end customer service action items.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="text-lg-end mb-5 mb-lg-0">
+                            <a href="integrations.html" class="btn btn-primary">View All Integrations</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="integration-wrapper position-relative w-100">
+                            <ul class="integration-list list-unstyled mb-0">
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/airbnb.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/figma.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/facebook.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/sales-force.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/atlassian.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/dropbox-2.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/dynamic-365.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/erecruiter.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/evernote.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/google-icon.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
 
-		<h2>
-			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect x='32' y='96' width='64' height='368' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='224' x2='240' y2='224' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line x1='112' y1='400' x2='240' y2='400' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect x='112' y='160' width='128' height='304' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><rect x='256' y='48' width='96' height='416' rx='16' ry='16' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><path d='M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/></svg>
-			Learn
-		</h2>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/slack.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
 
-		<p>The User Guide contains an introduction, tutorial, a number of "how to"
-			guides, and then reference documentation for the components that make up
-			the framework. Check the <a href="https://codeigniter4.github.io/userguide"
-			target="_blank">User Guide</a> !</p>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/google-analytics.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
 
-		<h2>
-			<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M431,320.6c-1-3.6,1.2-8.6,3.3-12.2a33.68,33.68,0,0,1,2.1-3.1A162,162,0,0,0,464,215c.3-92.2-77.5-167-173.7-167C206.4,48,136.4,105.1,120,180.9a160.7,160.7,0,0,0-3.7,34.2c0,92.3,74.8,169.1,171,169.1,15.3,0,35.9-4.6,47.2-7.7s22.5-7.2,25.4-8.3a26.44,26.44,0,0,1,9.3-1.7,26,26,0,0,1,10.1,2L436,388.6a13.52,13.52,0,0,0,3.9,1,8,8,0,0,0,8-8,12.85,12.85,0,0,0-.5-2.7Z' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><path d='M66.46,232a146.23,146.23,0,0,0,6.39,152.67c2.31,3.49,3.61,6.19,3.21,8s-11.93,61.87-11.93,61.87a8,8,0,0,0,2.71,7.68A8.17,8.17,0,0,0,72,464a7.26,7.26,0,0,0,2.91-.6l56.21-22a15.7,15.7,0,0,1,12,.2c18.94,7.38,39.88,12,60.83,12A159.21,159.21,0,0,0,284,432.11' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
-			Discuss
-		</h2>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/google-drive.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
 
-		<p>CodeIgniter is a community-developed open source project, with several
-			 venues for the community members to gather and exchange ideas. View all
-			 the threads on <a href="https://forum.codeigniter.com/"
-			 target="_blank">CodeIgniter's forum</a>, or <a href="https://codeigniterchat.slack.com/"
-			 target="_blank">chat on Slack</a> !</p>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/hubspot.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
 
-		<h2>
-			 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><line x1='176' y1='48' x2='336' y2='48' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><line x1='118' y1='304' x2='394' y2='304' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/><path d='M208,48v93.48a64.09,64.09,0,0,1-9.88,34.18L73.21,373.49C48.4,412.78,76.63,464,123.08,464H388.92c46.45,0,74.68-51.22,49.87-90.51L313.87,175.66A64.09,64.09,0,0,1,304,141.48V48' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
-			 Contribute
-		</h2>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/instagram.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/linkedin.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/mailchimp.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-integration">
+                                        <img src="assets/img/integations/marekto.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Brand Name</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--integration section end-->
 
-		<p>CodeIgniter is a community driven project and accepts contributions
-			 of code and documentation from the community. Why not
-			 <a href="https://codeigniter.com/en/contribute" target="_blank">
-			 join us</a> ?</p>
+        <!--cat subscribe start-->
+        <section class="cta-subscribe bg-dark text-white ptb-120 position-relative overflow-hidden">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="subscribe-info-wrap text-center position-relative z-2">
+                            <div class="section-heading" data-aos="fade-up">
+                                <h4 class="h5 text-warning">Let's Try! Get Free Support</h4>
+                                <h2>Start Your 14-Day Free Trial</h2>
+                                <p>We can help you to create your dream website for better business revenue.</p>
+                            </div>
+                            <div class="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
+                                <a href="contact-us.html" class="btn btn-primary">Contact with Us</a>
+                                <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn ms-lg-3 ms-md-3 mt-3 mt-lg-0"> <i class="fas fa-play"></i> Watch Demo </a>
+                            </div>
+                            <ul class="nav justify-content-center subscribe-feature-list mt-4" data-aos="fade-up" data-aos-delay="100">
+                                <li class="nav-item">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Free 14-day trial</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>No credit card required</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Support 24/7</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Cancel anytime</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light left-5"></div>
+                <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning right-5"></div>
+            </div>
+        </section>
+        <!--cat subscribe end-->
 
-	</section>
+        <!--footer section start-->
+        <footer class="footer-section">
+            <!--footer top start-->
+            <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
+            <div class="footer-top footer-light ptb-120">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
+                            <div class="footer-single-col">
+                                <div class="footer-single-col mb-4">
+                                    <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
+                                    <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
+                                </div>
+                                <p>Our latest news, articles, and resources, we will sent to your inbox weekly.</p>
 
-</div>
+                                <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex">
+                                    <input type="text" class="input-newsletter form-control me-2" placeholder="Enter your email" name="email" required="" autocomplete="off">
+                                    <input type="submit" value="Subscribe" data-wait="Please wait..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                </form>
+                                <div class="ratting-wrap mt-4">
+                                    <h6 class="mb-0">10/10 Overall rating</h6>
+                                    <ul class="list-unstyled rating-list list-inline mb-0">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                    <div class="footer-single-col">
+                                        <h3>Primary Pages</h3>
+                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                            <li><a href="services.html" class="text-decoration-none">Services</a></li>
+                                            <li><a href="career.html" class="text-decoration-none">Career</a></li>
+                                            <li><a href="integrations.html" class="text-decoration-none">Integrations</a>
+                                            </li>
+                                            <li><a href="integration-single.html" class="text-decoration-none">Integration Single</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                    <div class="footer-single-col">
+                                        <h3>Pages</h3>
+                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                            <li><a href="pricing.html" class="text-decoration-none">Pricing</a></li>
+                                            <li><a href="blog.html" class="text-decoration-none">Blog</a></li>
+                                            <li><a href="blog-single.html" class="text-decoration-none">Blog Details</a></li>
+                                            <li><a href="contact-us.html" class="text-decoration-none">Contact</a></li>
+                                            <li><a href="career-single.html" class="text-decoration-none">Career Single</a>
+                                            </li>
+                                            <li><a href="service-single.html" class="text-decoration-none">Services
+                                                    Single</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                    <div class="footer-single-col">
+                                        <h3>Template</h3>
+                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                            <li><a href="contact-us.html" class="text-decoration-none">Contact</a></li>
+                                            <li><a href="support.html" class="text-decoration-none">Support</a></li>
+                                            <li><a href="support-single.html" class="text-decoration-none">Support Single</a></li>
+                                            <li><a href="team.html" class="text-decoration-none">Our Team</a></li>
+                                            <li><a href="client-review.html" class="text-decoration-none">Customer Review</a></li>
+                                            <li><a href="career-single.html" class="text-decoration-none">Career Single</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-<!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
+                    </div>
+                </div>
+            </div>
+            <!--footer top end-->
 
-<footer>
-	<div class="environment">
+            <!--footer bottom start-->
+            <div class="footer-bottom footer-light py-4">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-7 col-lg-7">
+                            <div class="copyright-text">
+                                <p class="mb-lg-0 mb-md-0">&copy; 2021 Quiety Rights Reserved. Designed By <a href="https://themetags.com/" class="text-decoration-none">ThemeTags</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="footer-single-col text-start text-lg-end text-md-end">
+                                <ul class="list-unstyled list-inline footer-social-list mb-0">
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer bottom end-->
+        </footer>
+        <!--footer section end-->
 
-		<p>Page rendered in {elapsed_time} seconds</p>
+    </div>
 
-		<p>Environment: <?= ENVIRONMENT ?></p>
 
-	</div>
 
-	<div class="copyrights">
-
-		<p>&copy; <?= date('Y') ?> CodeIgniter Foundation. CodeIgniter is open source project released under the MIT
-			open source licence.</p>
-
-	</div>
-
-</footer>
-
-<!-- SCRIPTS -->
-
-<script>
-	function toggleMenu() {
-		var menuItems = document.getElementsByClassName('menu-item');
-		for (var i = 0; i < menuItems.length; i++) {
-			var menuItem = menuItems[i];
-			menuItem.classList.toggle("hidden");
-		}
-	}
-</script>
-
-<!-- -->
-
+    <!--build:js-->
+    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/parallax.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!--endbuild-->
 </body>
+
 </html>
