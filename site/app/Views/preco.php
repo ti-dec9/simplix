@@ -118,53 +118,103 @@
         </header>
         <!--header section end-->
 
-        <!--hero section start-->
-        <section class="hero-section ptb-120" style="background: url('assets/img/shape/dot-dot-wave-shape.svg')no-repeat bottom center">
+        <!--page header section start-->
+        <section class="page-header position-relative overflow-hidden ptb-120 bg-dark" style="background: url('assets/img/page-header-bg.svg')no-repeat bottom left">
             <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-xl-5 col-lg-5">
-                        <div class="hero-content-wrap text-center text-xl-start text-lg-start" data-aos="fade-right">
-                            <h1 class="fw-bold display-5">Registro de marca simples e rápido</h1>
-                            <p class="lead">Registre sua marca, patentes, direitos autorais e desenho industrial.</p>
-                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
-                                <form id="subscribe-form" name="email-form" class="hero-subscribe-form d-block d-lg-flex d-md-flex">
-                                    <input type="email" class="form-control me-2" name="Email" data-name="Email" placeholder="Registrar marca" id="email-address" required="">
-                                    <input type="submit" value="Registrar" data-wait="Please wait..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
-                                </form>
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <h1 class="display-5 fw-bold">Preço</h1>
+                        <p class="lead">Amet consectetur nostrud esse occaecat irure eiusmod labore tempor velit exercitation exercitation nostrud duis irure.</p>
+                    </div>
+                </div>
+                <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
+            </div>
+        </section>
+        <!--page header section end-->
+
+        <!--pricing section start-->
+        <section class="pricing-section ptb-120 position-relative z-2">
+            <div class="container">
+            <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
+                            <div class="pricing-header mb-32">
+                                <h3 class="package-name text-primary d-block">Stater</h3>
+                                <h4 class="display-6 fw-semi-bold">$25<span>/contrato</span></h4>
                             </div>
+                            <div class="pricing-info mb-4">
+                                <ul class="pricing-feature-list list-unstyled">
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                </ul>
+                            </div>
+                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">Eu quero</a>
+
+                            <!--pattern start-->
+                            <div class="dot-shape-bg position-absolute z--1 left--40 bottom--40">
+                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
+                            </div>
+                            <!--pattern end-->
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 mt-4 mt-xl-0">
-                        <div class="hero-img-wrap position-relative" data-aos="fade-left">
-                            <!--animated shape start-->
-                            <ul class="position-absolute animate-element parallax-element shape-service hide-medium">
-                                <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/color-shape/image-1.svg" alt="shape" class="img-fluid position-absolute color-shape-1">
-                                </li>
-                                <li class="layer" data-depth="0.02">
-                                    <img src="assets/img/color-shape/feature-2.svg" alt="shape" class="img-fluid position-absolute color-shape-2 z-5">
-                                </li>
-                                <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/color-shape/feature-3.svg" alt="shape" class="img-fluid position-absolute color-shape-3">
-                                </li>
-                            </ul>
-                            <!--animated shape end-->
-                            <!-- <div class="hero-img-wrap position-relative">
-                                <div class="hero-screen-wrap">
-                                    <div class="phone-screen">
-                                        <img src="assets/img/screen/phone-screen.png" alt="hero image" class="position-relative img-fluid">
-                                    </div>
-                                    <div class="mac-screen">
-                                        <img src="assets/img/screen/mac-screen.png" alt="hero image" class="position-relative img-fluid rounded-custom">
-                                    </div>
-                                </div>
-                            </div> -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="position-relative single-pricing-wrap rounded-custom bg-gradient text-white p-5 mb-4 mb-lg-0">
+                            <div class="pricing-header mb-32">
+                                <h3 class="package-name text-warning d-block">Advanced</h3>
+                                <h4 class="display-6 fw-semi-bold">$45<span>/contrato</span></h4>
+                            </div>
+                            <div class="pricing-info mb-4">
+                                <ul class="pricing-feature-list list-unstyled">
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
+                                </ul>
+                            </div>
+                            <a href="request-demo.html" class="btn btn-primary mt-2">Eu quero</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
+                            <div class="pricing-header mb-32">
+                                <h3 class="package-name text-primary d-block">Premium</h3>
+                                <h4 class="display-6 fw-semi-bold">$75<span>/contrato</span></h4>
+                            </div>
+                            <div class="pricing-info mb-4">
+                                <ul class="pricing-feature-list list-unstyled">
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsumv</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                </ul>
+                            </div>
+                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">Eu quero</a>
+
+                            <!--pattern start-->
+                            <div class="dot-shape-bg position-absolute z--1 right--40 top--40">
+                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
+                            </div>
+                            <!--pattern end-->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--hero section end-->
+        <!--pricing section end-->
 
         <!--feature section start-->
         <section class="feature-section-two">
@@ -244,350 +294,24 @@
         </section>
         <!--feature section end-->
 
-        <!--hero section start-->
-        <section class="hero-section pb-5 position-relative overflow-hidden" style="background: url('assets/img/shape/color-particles-2.svg')no-repeat center top">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-9">
-                        <div class="position-relative" data-aos="fade-up" data-aos-delay="200">
-                            <ul class="position-absolute animate-element parallax-element widget-img-wrap z-2">
-                                <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/screen/widget-3.png" alt="widget-img" class="img-fluid widget-img-1 position-absolute shadow-lg rounded-custom">
-                                </li>
-                                <li class="layer" data-depth="0.02">
-                                    <img src="assets/img/screen/widget-4.png" alt="widget-img" class="img-fluid widget-img-3 position-absolute shadow-lg rounded-custom">
-                                </li>
-                            </ul>
-                            <img src="assets/img/dashboard-img.png" alt="dashboard image" class="img-fluid position-relative rounded-custom mt-lg-5">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-dark position-absolute bottom-0 h-25 bottom-0 left-0 right-0 z--1 py-5"></div>
-        </section>
-
-        <!--top review section start-->
-        <section class="customer-review pb-120 bg-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="section-heading text-center">
-                        <h2 class="fw-medium h4">Nossa plataforma é exclusiva para que você possa <br> solicitar e acompanhar o registro da sua marca. </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- <div class="col-lg-4 col-md-4">
-                        <div class="review-info-wrap text-center rounded-custom d-flex flex-column h-100 p-lg-5 p-4">
-                            <div class="review-info-content mt-2">
-                                <p class="mb-4">Pesquisa de viabilidade de marca</p>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-lg-4 col-md-4">
-                        <div class="review-info-wrap text-center rounded-custom d-flex flex-column h-100 p-lg-5 p-4">
-                            <img src="assets/img/g-logo-w.svg" width="130" alt="google" class="img-fluid m-auto">
-                            <div class="review-info-content mt-2">
-                                <p class="mb-4">Consultoria prévia & completa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="review-info-wrap text-center rounded-custom d-flex flex-column h-100 p-lg-5 p-4">
-                            <img src="assets/img/li-logo-w.svg" width="130" alt="linkedIn" class="img-fluid m-auto">
-                            <div class="review-info-content mt-2">
-                                <p class="mb-4">Atendimento Online e sem burocracia</p>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-        <!--top review section end-->
-
-        <!--pricing section start-->
-        <section class="pricing-section pt-60 pb-120  position-relative z-2">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-10">
-                        <div class="section-heading text-center">
-                            <h4 class="h5 text-primary">Registro da marca</h4>
-                            <h2>Quanto custa para registrar uma marca?</h2>
-                            <p>Commodo adipisicing voluptate consectetur et est laboris aliquip ex exercitation non culpa qui nulla labore.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center mb-5">
-                    <div class="col-lg-3">
-                        <div class="media d-flex align-items-center py-2 p-sm-2">
-                            <div class="icon-box mb-0 bg-primary-soft rounded-circle d-block me-3">
-                                <i class="fal fa-credit-card text-primary"></i>
-                            </div>
-                            <div class="media-body fw-medium h6 mb-0">
-                                Sem cartão de crédito
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="media d-flex align-items-center py-2 p-sm-2">
-                            <div class="icon-box mb-0 bg-success-soft rounded-circle d-block me-3">
-                                <i class="fal fa-calendar-check text-success"></i>
-                            </div>
-                            <div class="media-body fw-medium h6 mb-0">
-                                Registro Único
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="media d-flex align-items-center py-2 p-sm-2">
-                            <div class="icon-box mb-0 bg-danger-soft rounded-circle d-block me-3">
-                                <i class="fal fa-calendar-times text-danger"></i>
-                            </div>
-                            <div class="media-body fw-medium h6 mb-0">
-                                Sem consulta ao SPC/SERASA
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
-                            <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block">Stater</h3>
-                                <h4 class="display-6 fw-semi-bold">$25<span>/contrato</span></h4>
-                            </div>
-                            <div class="pricing-info mb-4">
-                                <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                </ul>
-                            </div>
-                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">Eu quero</a>
-
-                            <!--pattern start-->
-                            <div class="dot-shape-bg position-absolute z--1 left--40 bottom--40">
-                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
-                            </div>
-                            <!--pattern end-->
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="position-relative single-pricing-wrap rounded-custom bg-gradient text-white p-5 mb-4 mb-lg-0">
-                            <div class="pricing-header mb-32">
-                                <h3 class="package-name text-warning d-block">Advanced</h3>
-                                <h4 class="display-6 fw-semi-bold">$45<span>/contrato</span></h4>
-                            </div>
-                            <div class="pricing-info mb-4">
-                                <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                </ul>
-                            </div>
-                            <a href="request-demo.html" class="btn btn-primary mt-2">Eu quero</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
-                            <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block">Premium</h3>
-                                <h4 class="display-6 fw-semi-bold">$75<span>/contrato</span></h4>
-                            </div>
-                            <div class="pricing-info mb-4">
-                                <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsumv</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                </ul>
-                            </div>
-                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">Eu quero</a>
-
-                            <!--pattern start-->
-                            <div class="dot-shape-bg position-absolute z--1 right--40 top--40">
-                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
-                            </div>
-                            <!--pattern end-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--pricing section end-->     
-
-        <!--integration section start-->
-        <section class="integration-section  pb-120">
-            <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="section-heading">
-                            <h4 class="h5 text-primary">Marcas</h4>
-                            <h2>Empresas que confiaram em nós!</h2>
-                            <p>Sint irure labore sunt consequat deserunt ut consequat dolore ea fugiat duis minim ex tempor.</p>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-4 col-md-12">
-                        <div class="text-lg-end mb-5 mb-lg-0">
-                            <a href="integrations.html" class="btn btn-primary">View All Integrations</a>
-                        </div>
-                    </div> -->
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="integration-wrapper position-relative w-100">
-                            <ul class="integration-list list-unstyled mb-0">
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/airbnb.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/figma.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/facebook.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/sales-force.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/atlassian.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/dropbox-2.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/dynamic-365.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/erecruiter.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/evernote.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/google-icon.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/slack.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/google-analytics.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/google-drive.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/hubspot.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/instagram.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/linkedin.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/mailchimp.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/marekto.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--integration section end-->
-
-        <!--customer review slider section start-->
-        <section class="testimonial-section bg-dark text-white  ptb-120">
+       <!--testimonial section start-->
+       <section class="testimonial-section ptb-120">
             <div class="container">
                 <div class="row justify-content-center align-content-center">
                     <div class="col-md-10 col-lg-6">
-                        <div class="section-heading text-center" data-aos="fade-up">
-                            <h4 class="h5 text-warning text-primary">Depoimentos</h4>
-                            <h2>Depoimentos</h2>
-                            <p>Uniquely promote adaptive quality vectors rather than stand-alone e-markets. pontificate alternative architectures whereas iterate.</p>
+                        <div class="section-heading text-center">
+                            <h4 class="h5 text-primary">Testimonial</h4>
+                            <h2>What They Say About Us</h2>
+                            <p>Dynamically initiate market positioning total linkage with clicks-and-mortar technology compelling data for cutting-edge markets.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="position-relative w-100" data-aos="fade-up" data-aos-delay="50">
+                        <div class="position-relative w-100">
                             <div class="swiper-container testimonialSwiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                    <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
                                         <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
                                         <div class="d-flex mb-32 align-items-center">
                                             <img src="assets/img/testimonial/1.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
@@ -598,7 +322,8 @@
                                         </div>
                                         <blockquote>
                                             <h6>The Best Template You Got to Have it!</h6>
-                                            Globally network long term high impact schemas cross-media infrastructures rather than ethical core competencies.
+                                            Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce
+                                            cross-media infrastructures rather than ethical
                                         </blockquote>
                                         <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -607,8 +332,9 @@
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                         </ul>
+                                        <img src="assets/img/testimonial/quotes.svg" alt="quotes" class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                    <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
                                         <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
                                         <div class="d-flex mb-32 align-items-center">
                                             <img src="assets/img/testimonial/3.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
@@ -619,7 +345,8 @@
                                         </div>
                                         <blockquote>
                                             <h6>Embarrassed by the First Version.</h6>
-                                            Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.
+                                            Dynamically create innovative core competencies with effective best
+                                            practices promote innovative infrastructures.
                                         </blockquote>
                                         <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -628,8 +355,9 @@
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                         </ul>
+                                        <img src="assets/img/testimonial/quotes.svg" alt="quotes" class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                    <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
                                         <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
                                         <div class="d-flex mb-32 align-items-center">
                                             <img src="assets/img/testimonial/2.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
@@ -640,7 +368,7 @@
                                         </div>
                                         <blockquote>
                                             <h6>Amazing Quiety template!</h6>
-                                            Appropriately negotiate interactive niches rather than parallel strategic theme premium total linkage areas.
+                                            Appropriately negotiate interactive niches rather than parallel strategic theme incubate premium total linkage areas.
                                         </blockquote>
                                         <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -649,8 +377,9 @@
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                         </ul>
+                                        <img src="assets/img/testimonial/quotes.svg" alt="quotes" class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                    <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
                                         <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
                                         <div class="d-flex mb-32 align-items-center">
                                             <img src="assets/img/testimonial/4.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
@@ -661,7 +390,8 @@
                                         </div>
                                         <blockquote>
                                             <h6>Best Template for SAAS Company!</h6>
-                                            Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.
+                                            Dynamically create innovative core competencies with effective best
+                                            practices promote innovative infrastructures.
                                         </blockquote>
                                         <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -670,8 +400,9 @@
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                         </ul>
+                                        <img src="assets/img/testimonial/quotes.svg" alt="quotes" class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                    <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
                                         <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
                                         <div class="d-flex mb-32 align-items-center">
                                             <img src="assets/img/testimonial/5.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
@@ -682,7 +413,7 @@
                                         </div>
                                         <blockquote>
                                             <h6>It is undeniably good!</h6>
-                                            Rapidiously supply client-centric e-markets and maintainable processes progressively extend process-centric portals engineer
+                                            Rapidiously supply client-centric e-markets and maintainable processes progressively engineer
                                         </blockquote>
                                         <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -691,6 +422,7 @@
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                             <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                                         </ul>
+                                        <img src="assets/img/testimonial/quotes.svg" alt="quotes" class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
                                     </div>
                                 </div>
                             </div>
@@ -701,7 +433,7 @@
                 </div>
             </div>
         </section>
-        <!--customer review slider section end-->
+        <!--testimonial section end-->
 
         <!--faq section start-->
         <section class="faq-section ptb-120 bg-light">
@@ -742,33 +474,29 @@
         </section>
         <!--faq section end-->
 
-        <!--cat subscribe start--
-        <section class="cta-subscribe bg-dark text-white ptb-120 position-relative overflow-hidden">
+        <!--cat subscribe start-->
+        <section class="cta-subscribe bg-dark ptb-120 position-relative overflow-hidden">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-10">
                         <div class="subscribe-info-wrap text-center position-relative z-2">
-                            <div class="section-heading" data-aos="fade-up">
-                                <h4 class="h5 text-warning">Let's Try! Get Free Support</h4>
-                                <h2>Start Your 14-Day Free Trial</h2>
-                                <p>We can help you to create your dream website for better business revenue.</p>
+                            <div class="section-heading">
+                                <h4 class="h5 text-warning">Gostou?</h4>
+                                <h2>Então registre sua marca!</h2>
+                                <p>Ipsum ea enim ex consequat tempor mollit minim.</p>
                             </div>
-                            <div class="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
-                                <a href="contact-us.html" class="btn btn-primary">Contact with Us</a>
-                                <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn ms-lg-3 ms-md-3 mt-3 mt-lg-0"> <i class="fas fa-play"></i> Watch Demo </a>
+                            <div class="form-block-banner mw-60 m-auto mt-5">
+                                <a href="contact-us.html" class="btn btn-primary">Registrar Marcar</a>
                             </div>
-                            <ul class="nav justify-content-center subscribe-feature-list mt-4" data-aos="fade-up" data-aos-delay="100">
+                            <ul class="nav justify-content-center subscribe-feature-list mt-4">
                                 <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Free 14-day trial</span>
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Sem Restrições</span>
                                 </li>
                                 <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>No credit card required</span>
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Livre de assinatura</span>
                                 </li>
                                 <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Support 24/7</span>
-                                </li>
-                                <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Cancel anytime</span>
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Supporte 24/7</span>
                                 </li>
                             </ul>
                         </div>
