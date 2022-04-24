@@ -126,12 +126,10 @@
                         <div class="section-heading-wrap d-flex justify-content-between z-5 position-relative">
                             <div class="about-content-left">
                                 <div class="about-info mb-5">
-                                    <h1 class="fw-bold display-5">Grow your Business & Customer Satisfaction with
-                                        Quiety</h1>
-                                    <p class="lead">Dynamically disintermediate technically sound technologies with
-                                        compelling quality vectors error-free communities. </p>
-                                    <a href="career.html" class="btn btn-primary mt-4 me-3">Open Positions</a>
-                                    <a href="#our-team" class="btn btn-soft-primary mt-4">Meet Our Team</a>
+                                    <h1 class="fw-bold display-5">Quem Somos</h1>
+                                    <p class="lead">Mollit ex ut consequat sunt dolore aute esse mollit fugiat dolor voluptate eiusmod mollit adipisicing. </p>
+                                    <!-- <a href="career.html" class="btn btn-primary mt-4 me-3">Open Positions</a>
+                                    <a href="#our-team" class="btn btn-soft-primary mt-4">Meet Our Team</a> -->
                                 </div>
                                 <img src="assets/img/about-img-1.jpg" alt="about" class="img-fluid about-img-first mt-5 rounded-custom shadow">
                             </div>
