@@ -25,32 +25,26 @@
         <!--header section end-->
 
         <!--hero section start-->
-        <section class="hero-section ptb-120" style="background: url('assets/img/shape/dot-dot-wave-shape.svg')no-repeat bottom center">
+        <section class="hero-section" style="background: url('assets/img/shape/dot-dot-wave-shape.svg')no-repeat bottom center">
             <div class="container">
                 <div class="row align-items-center justify-content-lg-between">
                     <div class="col-xl-5 col-lg-5">
                         <div class="hero-content-wrap text-center text-xl-start text-lg-start" data-aos="fade-right">
-                            <h1 class="fw-bold display-6">Registro de marca simples e rápido</h1>
-                            <p class="lead">Registre sua marca, patentes, direitos autorais e desenho industrial.</p>
-                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
+                            <h1 class="fw-bold display-6">SEU REGISTRO PROTOCOLADO
+                                NO INPI EM * <span style="background-color: #071C4D; color:white;">48 HORAS</span></h1>
+                            <h3>EM 10X SEM JUROS!</h3>
+                            <i>* 48 HORAS ÚTEIS</i>
+                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0  d-md-block d-lg-block d-xl-block">
                                 <input type="submit" value="Quero registrar minha marca" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 mt-4 mt-xl-0">
+                    <div class="col-xl-5 col-lg-5 mt-4 mt-xl-0">
                         <div class="hero-img-wrap position-relative" data-aos="fade-left">
                             <!--animated shape start-->
-                            <ul class="position-absolute animate-element parallax-element shape-service hide-medium">
-                                <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/color-shape/image-1.svg" alt="shape" class="img-fluid position-absolute color-shape-1">
-                                </li>
-                                <li class="layer" data-depth="0.02">
-                                    <img src="assets/img/color-shape/feature-2.svg" alt="shape" class="img-fluid position-absolute color-shape-2 z-5">
-                                </li>
-                                <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/color-shape/feature-3.svg" alt="shape" class="img-fluid position-absolute color-shape-3">
-                                </li>
-                            </ul>
+                           <div>
+                               <img src="assets/img/foguete.gif" alt="">
+                           </div>
                             <!--animated shape end-->
                             <!-- <div class="hero-img-wrap position-relative">
                                 <div class="hero-screen-wrap">
@@ -70,13 +64,13 @@
         <!--hero section end-->
 
         <!--feature section start-->
-        <section class="feature-section-two">
+        <section class="feature-section-two" style="margin-top:12px">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-5 col-md-12">
+                    <div class="col-lg-7 col-md-12">
                         <div class="section-heading" data-aos="fade-up">
                             <!--<h4 class="h5 text-primary">Vantagens?</h4>-->
-                            <h2>Vantagens de registrar sua marca com a Simplix:</h2>
+                            <h2>VANTAGENS DE REGISTRAR SUA MARCA COM A SIMPLIX:</h2>
                             <p>Somos uma plataforma especializada em registro de marcas junto ao INPI. Trabalhamos com facilidade, velocidade e segurança para que você tenha a sua marca registrada.</p>
                             <ul class="list-unstyled mt-5">
                                 <li class="d-flex align-items-start mb-4">
@@ -138,7 +132,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-7">
+                    <div class="col-lg-5 col-md-7">
                         <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
                             <!-- <ul class="img-overlay-list list-unstyled position-absolute">
                                 <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="50">
@@ -161,7 +155,60 @@
             </div>
         </section>
         <!--feature section end-->
-
+<section class="hero-section" style="padding-top:12px;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12">
+                <div class="section-heading text-center">
+                    <h3 class="h5 text-primary">Registro da marca</h3>
+                    <h4>NA SIMPLIX VOCÊ TEM O PEDIDO DE REGISTRO DA SUA MARCA, PROTOCOLADO EM <span style="background-color:#071C4D; color: white;">APENAS 3 PASSOS:</span></h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container d-flex">
+            <div class="row justify-content-center align-center">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <img src="assets/img/passoapasso.gif" alt="">
+                </div>
+                <div class="col-lg-4 text-center card-passo justify-content-center">
+                    <h5>SOLICITE SUA BUSCA PRÉVIA</h5>
+                    <p class="text">
+                     FAÇA O PEDIDO DE PESQUISA NA PLATAFORMA, CLICANDO EM “QUERO REGISTRAR MINHAMARCA”. VOCÊ VAI RECEBER UM RELATÓRIO POR E-MAIL COM UM PARECER DO NOSSO TIME DEESPECIALISTAS.
+                    </p>
+                    <h1 style="color: white;">1</h1>
+                </div>
+                <div class="col-lg-4 text-center card-passo justify-content-center">
+                    
+                    <div>
+                        <h5>FAÇA SEU CADASTRO</h5>
+                    </div>
+                    <div>
+                        <p class="text">
+                            PREENCHA ATENTAMENTE O FORMULÁRIO E LEIA OS TERMOS E O CONTRATO.
+                        </p>
+                    </div>
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 style="color: white;">2</h1>
+                </div>
+                <div class="col-lg-4 text-center card-passo">
+                    <h5>FORMA DE PAGAMENTO</h5>
+                    <p class="text">
+                        ESCOLHA A FORMA E AS CONDIÇÕES DE PAGAMENTO. CONFIRME O PAGAMENTO E PRONTO!
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 class="align-self-end" style="color: white;">3</h1>
+                </div>
+            </div>
+        </div>
+</section>
         <!--hero section start-->
         <section class="hero-section pb-5 position-relative overflow-hidden" style="background: url('assets/img/shape/color-particles-2.svg')no-repeat center top">
             <div class="container">
@@ -229,7 +276,7 @@
                         <div class="section-heading text-center">
                             <h4 class="h5 text-primary">Registro da marca</h4>
                             <h2>Quanto custa para registrar uma marca?</h2>
-                            <p>Commodo adipisicing voluptate consectetur et est laboris aliquip ex exercitation non culpa qui nulla labore.</p>
+                            <p>OS VALORES SÃO DE ACORDO COM O ENQUADRAMENTO JURÍDICO DA EMPRESA, CONFORME COMPROVADO PELO CNPJ.</p>
                         </div>
                     </div>
                 </div>
@@ -265,26 +312,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block">Stater</h3>
-                                <h4 class="display-6 fw-semi-bold">$25<span>/contrato</span></h4>
+                                <h3 class="package-name text-primary d-block">Pequeno Porte</h3>
+                                <h6 class="">M.E., E.P.P, MEI E PESSOA FÍSICA.</h6>
+                                <p>DE R$1.200,00 POR</p>
+                                <h2>R$ 800,00*</h2>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> CADASTRO NO INPI</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> PAGAMENTO DA TAXA INICIAL</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ENTRADA NO PROCESSO
+                                    </li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ACESSO A PLATAFORMA SIMPLIX</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> SUPORTE POR E-MAIL</li>
                                 </ul>
                             </div>
-                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">Eu quero</a>
+                           
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 left--40 bottom--40">
@@ -294,52 +341,38 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="position-relative single-pricing-wrap rounded-custom bg-gradient text-white p-5 mb-4 mb-lg-0">
-                            <div class="pricing-header mb-32">
-                                <h3 class="package-name text-warning d-block">Advanced</h3>
-                                <h4 class="display-6 fw-semi-bold">$45<span>/contrato</span></h4>
-                            </div>
-                            <div class="pricing-info mb-4">
-                                <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-warning me-2"></i> Lorem ipsum</li>
-                                </ul>
-                            </div>
-                            <a href="request-demo.html" class="btn btn-primary mt-2">Eu quero</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
                         <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
                             <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block">Premium</h3>
-                                <h4 class="display-6 fw-semi-bold">$75<span>/contrato</span></h4>
+                                <h3 class="package-name text-primary d-block">Grande Porte</h3>
+                                <h6 class="">DEMAIS PORTES.</h6>
+                                <p>DE R$1.700,00 POR</p>
+                                <h2>R$ 1.100,00*
+                                </h2>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsumv</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> Lorem ipsum</li>
-                                </ul>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> CADASTRO NO INPI</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> PAGAMENTO DA TAXA INICIAL</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ENTRADA NO PROCESSO
+                                    </li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ACESSO A PLATAFORMA SIMPLIX</li>
+                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> SUPORTE POR E-MAIL</li>
                             </div>
-                            <a href="request-demo.html" class="btn btn-outline-primary mt-2">Eu quero</a>
-
+                            
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 right--40 top--40">
                                 <img src="assets/img/shape/dot-big-square.svg" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
+                    </div>
+                    <div class="d-flex col-lg-12 justify-content-center" style="margin-top: 45px;">
+                        <div class="row justify-content-center">
+                            <h5 class="text-center"><i>* VALORES POR PROCESSO DE PEDIDO DE REGISTRO DE MARCA JUNTO AO INPI.</i></h5>
+                        <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-md-block d-lg-block d-xl-block">
+                            <input type="submit" value="Quero registrar minha marca" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -353,8 +386,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="section-heading">
                             <h4 class="h5 text-primary">Marcas</h4>
-                            <h2>Empresas que confiaram em nós!</h2>
-                            <p>Sint irure labore sunt consequat deserunt ut consequat dolore ea fugiat duis minim ex tempor.</p>
+                            <h2>Algumas empresas que confiaram em nós!</h2>
                         </div>
                     </div>
                     <!-- <div class="col-lg-4 col-md-12">
@@ -364,7 +396,7 @@
                     </div> -->
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-lg-7 col-12">
                         <div class="integration-wrapper position-relative w-100">
                             <ul class="integration-list list-unstyled mb-0">
                                 <li>
@@ -441,47 +473,11 @@
                                         <h6 class="mb-0 mt-4">{Name}</h6>
                                     </div>
                                 </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/google-drive.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/hubspot.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/instagram.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/linkedin.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/mailchimp.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/marekto.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="col-lg-5">
+                       <img src="assets/img/negocios.gif" alt="">
                     </div>
                 </div>
             </div>
@@ -628,31 +624,42 @@
                     <div class="col-md-10 col-lg-6">
                         <div class="section-heading text-center">
                             <h4 class="h5 text-primary">FAQ</h4>
-                            <h2>Perguntas Frequentes</h2>
-                            <p>Conveniently mesh cooperative services via magnetic outsourcing. Dynamically grow value whereas accurate e-commerce vectors. </p>
+                            <h2>Perguntas Frequentes</h2>                   
+                        </div>
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <div class="hero-subscribe-form-wrap d-md-block d-lg-block d-xl-block">
+                                <input type="submit" value="Acessar página de dúvidas" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-between">
+                <div class="row align-items-center justify-content-between" style="margin-top:85px;">
                     <div class="col-lg-5 col-12">
                         <div class="faq-wrapper">
                             <div class="faq-item mb-5">
-                                <h5><span class="h3 text-primary me-2">1.</span> O que fazemos?</h5>
-                                <p>Progressively e-enable collaborative inexpensive supply chains. Efficiently maintain economically methods of empowerment for synergistic sound scenarios.</p>
+                                <h5><span class="h3 text-primary me-2">1.</span>Por que devo registrar minha marca no INPI?</h5>
+                                <p>Só o Registro de Marcas no INPI te dá exclusividade
+                                    de uso da sua marca, em todo o Brasil, dentro do seu
+                                    ramo de atividade. <a href="">(Ver mais)</a></p>
                             </div>
                             <div class="faq-item mb-5">
-                                <h5><span class="h3 text-primary me-2">2.</span> O que fazemos??</h5>
-                                <p>Globally benchmark customized mindshare before clicks-and-mortar partnerships. Efficiently maintain economically sound scenarios and whereas client-based progressively. </p>
+                                <h5><span class="h3 text-primary me-2">2.</span>O que é INPI?</h5>
+                                <p>O INPI é o Instituto Nacional da Propriedade
+                                    Industrial. É uma autarquia Federal que é responsável
+                                    por... <a href="">(Ver mais)</a></p>
                             </div>
                             <div class="faq-item">
-                                <h5><span class="h3 text-primary me-2">3.</span> O que fazemos??</h5>
-                                <p> Dynamically visualize whereas competitive relationships. Progressively benchmark customized partnerships generate interdependent benefits rather sound scenarios and robust alignments.</p>
+                                <h5><span class="h3 text-primary me-2">3.</span>O Registro na Junta Comercial protege a minha
+                                    marca?</h5>
+                                <p>Não! O registro na junta comercial te dá uma
+                                    proteção regional, só o registro no INPI vai proteger a
+                                    sua marca em todo o Brasil...<a href="">(Ver mais)</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="text-center mt-4 mt-lg-0 mt-md-0">
-                            <img src="assets/img/faq.svg" alt="faq" class="img-fluid">
+                            <img src="assets/img/faq.gif" alt="faq" class="img-fluid">
                         </div>
                     </div>
                 </div>

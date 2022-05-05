@@ -9,3 +9,18 @@
 .hero-subscribe-form-wrap input {
     font-size: 25px;
 }
+
+.card-passo{
+    background-color: #071C4D;
+    width: 350px;
+    color: white;
+    height: 300px;
+    border-radius:20px;]
+    box-shadow: 10px black;
+    margin:10px;
+}
+
+.card-passo h5{
+    margin: 20px;
+    color: white;
+}

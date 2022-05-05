@@ -7,25 +7,31 @@
                 <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                     <div class="footer-single-col">
                         <div class="footer-single-col mb-4">
-                            <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
-                            <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
+                            <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo logo-white">
+                            <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo logo-color">
                         </div>
-                        <p>Ea anim culpa incididunt eu laboris ullamco fugiat sunt cillum veniam ad officia.</p>
-
                         <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex">
-                            <input type="text" class="input-newsletter form-control me-2" placeholder="Digite o seu melhor email" name="email" required="" autocomplete="off">
-                            <input type="submit" value="Me inscrever" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                            <div>
+                                <div class="row">
+                                <div class="mt-3">
+                                    <label for="email">Email:</label>
+                                    <input type="text" class="input-newsletter form-control me-2" id="email" placeholder="exemplo@exemplo.com" name="email" required="" autocomplete="off">
+                                    </div>
+                                    <label class="mt-3" for="telefone">Telefone:</label>
+                                    <div class="mt-3">
+                                    <input type="text" class="input-newsletter form-control me-2" id="telefone" placeholder="(xx) xxxxx-xxxx" name="telefone" required="" autocomplete="off">
+                                    </div>
+                                    <div class="mt-3">
+                                    <label for="duvida">Dúvida:</label>
+                                    <textarea class="form-control " id="duvida" rows="3"></textarea>
+                                    </div>
+                                    <div class="mt-3">
+                                    <input type="submit" value="Enviar" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                    </div>
+                                </div>
+                            </div>
+                           
                         </form>
-                        <div class="ratting-wrap mt-4">
-                            <h6 class="mb-0">10/10 Avaliação Geral</h6>
-                            <ul class="list-unstyled rating-list list-inline mb-0">
-                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
@@ -38,6 +44,7 @@
                                     <li><a href="#" class="text-decoration-none">Quem Somos</a></li>
                                     <li><a href="#" class="text-decoration-none">Preço</a></li>
                                     <li><a href="#" class="text-decoration-none">Blog</a></li>
+                                    <li><a href="#" class="text-decoration-none">Dúvidas Frequentes</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -48,6 +55,9 @@
                                     <li><a href="#" class="text-decoration-none">Políticas de Privacidade</a>
                                     <li><a href="#" class="text-decoration-none">Termos de usos</a>
                                     </li>
+                                    <li><a href="#" class="text-decoration-none">Facebook</a>
+                                    <li><a href="#" class="text-decoration-none">Instagram</a>
+                                    <img src="assets/img/redes.gif" alt="">
                                 </ul>
                             </div>
                         </div>
@@ -75,7 +85,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-7 col-lg-7">
                     <div class="copyright-text">
-                        <p class="mb-lg-0 mb-md-0">&copy; 2021 Simplix Marcas - Todos os Direitos Reservados. Desenvolvido por <a href="https://dec9.com.br" target="_blank" class="text-decoration-none"><img src="assets/img/logo-dec9.png" width="40" height="auto" alt=""> </a></p>
+                        <p class="mb-lg-0 mb-md-0">&copy; 2021 Simplix Marcas - Todos os Direitos Reservados. Desenvolvido por <a href="https://dec9.com.br" target="_blank" class="text-decoration-none logo"><img src="assets/img/logo-dec9.png" width="40" height="auto" alt=""> </a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
