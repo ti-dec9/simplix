@@ -13,20 +13,22 @@
                         <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex">
                             <div>
                                 <div class="row">
-                                <div class="mt-3">
-                                    <label for="email">Email:</label>
-                                    <input type="text" class="input-newsletter form-control me-2" id="email" placeholder="exemplo@exemplo.com" name="email" required="" autocomplete="off">
-                                    </div>
-                                    <label class="mt-3" for="telefone">Telefone:</label>
                                     <div class="mt-3">
-                                    <input type="text" class="input-newsletter form-control me-2" id="telefone" placeholder="(xx) xxxxx-xxxx" name="telefone" required="" autocomplete="off">
-                                    </div>
-                                    <div class="mt-3">
-                                    <label for="duvida">Dúvida:</label>
-                                    <textarea class="form-control " id="duvida" rows="3"></textarea>
-                                    </div>
-                                    <div class="mt-3">
-                                    <input type="submit" value="Enviar" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                        <p>Somos uma plataforma especializada em registro de marcas junto ao INPI. Trabalhamos com facilidade, velocidade e segurança para que você tenha a sua marca registrada.</p>
+                                    <!--  <label for="email">Email:</label>
+                                        <input type="text" class="input-newsletter form-control me-2" id="email" placeholder="exemplo@exemplo.com" name="email" required="" autocomplete="off">
+                                        </div>
+                                        <label class="mt-3" for="telefone">Telefone:</label>
+                                        <div class="mt-3">
+                                        <input type="text" class="input-newsletter form-control me-2" id="telefone" placeholder="(xx) xxxxx-xxxx" name="telefone" required="" autocomplete="off">
+                                        </div>
+                                        <div class="mt-3">
+                                        <label for="duvida">Dúvida:</label>
+                                        <textarea class="form-control " id="duvida" rows="3"></textarea>
+                                        </div>
+                                        <div class="mt-3">
+                                        <input type="submit" value="Enviar" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -41,10 +43,10 @@
                                 <h3>Institucional</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
                                     <li><a href="#" class="text-decoration-none">Home</a></li>
-                                    <li><a href="#" class="text-decoration-none">Quem Somos</a></li>
-                                    <li><a href="#" class="text-decoration-none">Preço</a></li>
-                                    <li><a href="#" class="text-decoration-none">Blog</a></li>
-                                    <li><a href="#" class="text-decoration-none">Dúvidas Frequentes</a></li>
+                                    <li><a href="<?php echo base_url('quem-somos') ?>" class="text-decoration-none">Quem Somos</a></li>
+                                    <li><a href="<?php echo base_url('preco') ?>" class="text-decoration-none">Preço</a></li>
+                                    <li><a href="<?php echo base_url('blog') ?>" class="text-decoration-none">Blog</a></li>
+                                    <li><a href="<?php echo base_url('duvidas-frequentes') ?>" class="text-decoration-none">Dúvidas Frequentes</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -53,11 +55,8 @@
                                 <h3>Links</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
                                     <li><a href="#" class="text-decoration-none">Políticas de Privacidade</a>
-                                    <li><a href="#" class="text-decoration-none">Termos de usos</a>
-                                    </li>
-                                    <li><a href="#" class="text-decoration-none">Facebook</a>
-                                    <li><a href="#" class="text-decoration-none">Instagram</a>
-                                    <img src="assets/img/redes.gif" alt="">
+                                    <li><a href="#" class="text-decoration-none">Termos de usos</a></li>
+                                    <!-- <img src="assets/img/redes.gif" alt=""> -->
                                 </ul>
                             </div>
                         </div>
@@ -65,15 +64,14 @@
                             <div class="footer-single-col">
                                 <h3>Contato</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                    <li><a href="contact-us.html" class="text-decoration-none">Fale Conosco</a></li>
-                                    <li><a href="support.html" class="text-decoration-none">Suporte</a></li>
+                                    <li><a href="<?php echo base_url('fale-conosco') ?>" class="text-decoration-none">Fale Conosco</a></li>
+                                    <li><a href="#" class="text-decoration-none">Suporte</a></li>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

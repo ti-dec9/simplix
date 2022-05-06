@@ -21,7 +21,7 @@
                 </ul>
             </div>
             <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                <a href="#" class="btn btn-primary">Área do Cliente</a>
+                <a href="<?php echo base_url('registrar-marca') ?>" class="btn btn-primary">Registre sua marca</a>
             </div>
             <!--offcanvas menu start-->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
@@ -45,7 +45,7 @@
                         <li><a href="<?php echo base_url('blog') ?>" class="nav-link">Blog</a></li>
                     </ul>
                     <div class="action-btns mt-4 ps-3">
-                        <a href="#" class="btn btn-primary">Área do Cliente</a>
+                        <a href="<?php echo base_url('registrar-marca') ?>" class="btn btn-primary">Registrar Marca</a>
                     </div>
                 </div>
             </div>

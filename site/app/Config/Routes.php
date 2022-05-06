@@ -34,6 +34,10 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/quem-somos', 'Quemsomos::index');
 $routes->get('/preco', 'Preco::index');
+$routes->get('/preco', 'Preco::index');
+$routes->get('/duvidas-frequentes', 'duvidasfrequentes::index');
+$routes->get('/fale-conosco', 'faleconosco::index');
+$routes->get('/registrar-marca', 'registrarmarca::index');
 
 /*
  * --------------------------------------------------------------------
