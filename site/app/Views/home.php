@@ -82,39 +82,39 @@
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-danger rounded me-4">
-                                        <i class="fas fa-fingerprint text-white"></i>
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fa-solid fa-gauge-max text-white"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Rapidez</h3>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-danger rounded me-4">
-                                        <i class="fas fa-fingerprint text-white"></i>
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fa-solid fa-lock text-white"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Segurança</h3>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-danger rounded me-4">
-                                        <i class="fas fa-fingerprint text-white"></i>
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fa-solid fa-circle-dollar text-white"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Pagamento Facilitao</h3>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-danger rounded me-4">
-                                        <i class="fas fa-fingerprint text-white"></i>
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fa-solid fa-xmark text-white"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Sem Burocracia</h3>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-danger rounded me-4">
+                                    <div class="icon-box bg-primary rounded me-4">
                                         <i class="fas fa-fingerprint text-white"></i>
                                     </div>
                                     <div class="icon-content">
@@ -122,8 +122,8 @@
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-danger rounded me-4">
-                                        <i class="fas fa-fingerprint text-white"></i>
+                                    <div class="icon-box bg-primary rounded me-4">
+                                        <i class="fa-solid fa-laptop-mobile text-white"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Acompanhamento pela plataforma</h3>
@@ -161,7 +161,7 @@
             <div class="col-lg-8 col-md-12">
                 <div class="section-heading text-center">
                     <h3 class="h5 text-primary">Registro da marca</h3>
-                    <h4>NA SIMPLIX VOCÊ TEM O PEDIDO DE REGISTRO DA SUA MARCA, PROTOCOLADO EM <span style="background-color:#071C4D; color: white;">APENAS 3 PASSOS:</span></h4>
+                    <h4>NA SIMPLIX VOCÊ TEM O PEDIDO DE REGISTRO DA SUA MARCA, PROTOCOLADO EM APENAS 3 PASSOS:</h4>
                     <p></p>
                 </div>
             </div>
