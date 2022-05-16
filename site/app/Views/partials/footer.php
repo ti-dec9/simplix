@@ -42,11 +42,11 @@
                             <div class="footer-single-col">
                                 <h3>Institucional</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                    <li><a href="#" class="text-decoration-none">Home</a></li>
-                                    <li><a href="<?php echo base_url('quem-somos') ?>" class="text-decoration-none">Quem Somos</a></li>
-                                    <li><a href="<?php echo base_url('preco') ?>" class="text-decoration-none">Preço</a></li>
-                                    <li><a href="<?php echo base_url('blog') ?>" class="text-decoration-none">Blog</a></li>
-                                    <li><a href="<?php echo base_url('duvidas-frequentes') ?>" class="text-decoration-none">Dúvidas Frequentes</a></li>
+                                    <li><a href="home" class="text-decoration-none">Home</a></li>
+                                    <li><a href="quem-somos" class="text-decoration-none">Quem Somos</a></li>
+                                    <li><a href="preco"  class="text-decoration-none">Preço</a></li>
+                                    <li><a href="#"  class="text-decoration-none">Blog</a></li>
+                                    <li><a href="duvidas-frequentes"  class="text-decoration-none">Dúvidas Frequentes</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                             <div class="footer-single-col">
                                 <h3>Contato</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                    <li><a href="<?php echo base_url('fale-conosco') ?>" class="text-decoration-none">Fale Conosco</a></li>
+                                    <li><a href="#" class="text-decoration-none">Fale Conosco</a></li>
                                     <li><a href="#" class="text-decoration-none">Suporte</a></li>
                                     </li>
                                 </ul>

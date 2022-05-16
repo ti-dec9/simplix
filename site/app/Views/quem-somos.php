@@ -290,7 +290,7 @@ Nossa marca está registrada no INPI e estamos aliviados, sabendo que a marca MI
                         </div>
                         <div class="col-lg-12 d-flex justify-content-center">
                             <div class="hero-subscribe-form-wrap d-md-block d-lg-block d-xl-block">
-                                <input type="submit" value="Acessar dúvidas" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                <a href="duvidas-frequentes" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Página de Dúvidas</a>
                             </div>
                         </div>
                     </div>

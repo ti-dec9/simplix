@@ -1,7 +1,7 @@
 <header class="main-header w-100">
     <nav class="navbar navbar-expand-xl navbar-light sticky-header">
         <div class="container d-flex align-items-center justify-content-lg-between position-relative">
-            <a href="/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+            <a href="home" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                 <img src="assets/img/logo.png" alt="logo" class="logo logo-color" />
             </a>
             <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop" role="button">
@@ -11,17 +11,17 @@
             <div class="collapse navbar-collapse justify-content-center">
                 <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="<?php echo base_url('/'); ?>" role="button" aria-expanded="false">
+                        <a class="nav-link" href="home" role="button" aria-expanded="false">
                             Home
                         </a>
                     </li>
-                    <li><a href="<?php echo base_url('quem-somos') ?>" class="nav-link">Quem Somos</a></li>
-                    <li><a href="<?php echo base_url('preco') ?>" class="nav-link">Preço</a></li>
-                    <li><a href="<?php echo base_url('blog') ?>" class="nav-link">Blog</a></li>
+                    <li><a href="quem-somos" class="nav-link">Quem Somos</a></li>
+                    <li><a href="preco" class="nav-link">Preço</a></li>
+                    <li><a href="#" class="nav-link">Blog</a></li>
                 </ul>
             </div>
             <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                <a href="<?php echo base_url('registrar-marca') ?>" class="btn btn-primary">Registre sua marca</a>
+                <a href="registrar-marca" class="btn btn-primary">Registre sua marca</a>
             </div>
             <!--offcanvas menu start-->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
