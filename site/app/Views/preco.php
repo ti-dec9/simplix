@@ -157,7 +157,7 @@
                                 <h2>Então registre sua marca!</h2>
                             </div>
                             <div class="form-block-banner mw-60 m-auto mt-5">
-                                <a href="registrar-marca" class="btn btn-primary">Registrar Marca</a>
+                                <a href="Registrarmarca" class="btn btn-primary">Registrar Marca</a>
                             </div>
                             <ul class="nav justify-content-center subscribe-feature-list mt-4">
                                 <li class="nav-item">

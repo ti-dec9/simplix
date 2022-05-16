@@ -46,7 +46,7 @@
                                     <li><a href="quem-somos" class="text-decoration-none">Quem Somos</a></li>
                                     <li><a href="preco"  class="text-decoration-none">Preço</a></li>
                                     <li><a href="#"  class="text-decoration-none">Blog</a></li>
-                                    <li><a href="duvidas-frequentes"  class="text-decoration-none">Dúvidas Frequentes</a></li>
+                                    <li><a href="Duvidasfrequentes"  class="text-decoration-none">Dúvidas Frequentes</a></li>
                                 </ul>
                             </div>
                         </div>

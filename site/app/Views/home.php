@@ -35,10 +35,10 @@
                             <h3>EM 10X SEM JUROS!</h3>
                             <i>* 48 HORAS ÚTEIS</i>
                             <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
-                                <a href="registrar-marca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Quero registrar minha marca</a>
+                                <a href="Registrarmarca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Quero registrar minha marca</a>
                             </div>
                             <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-block d-md-none d-lg-none d-xl-none">
-                                <a href="registrar-marca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Registre sua marca</a>
+                                <a href="Registrarmarca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Registre sua marca</a>
                             </div>
                         </div>
                     </div>
@@ -373,10 +373,10 @@
                         <div class="row justify-content-center">
                             <h5 class="text-center"><i>* VALORES POR PROCESSO DE PEDIDO DE REGISTRO DE MARCA JUNTO AO INPI.</i></h5>
                             <div class="text-center hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
-                                <a href="registrar-marca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Quero registrar minha marca</a>
+                                <a href="Registrarmarca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Quero registrar minha marca</a>
                             </div>
                             <div class="text-center hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-block d-md-none d-lg-none d-xl-none">
-                                <a href="registrar-marca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Registre sua marca</a>
+                                <a href="Registrarmarca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Registre sua marca</a>
                             </div>
                     </div>
                     </div>
@@ -593,7 +593,7 @@ Nossa marca está registrada no INPI e estamos aliviados, sabendo que a marca MI
                         </div>
                         <div class="col-lg-12 d-flex justify-content-center">
                             <div class="hero-subscribe-form-wrap d-md-block d-lg-block d-xl-block">
-                                <a href="duvidas-frequentes" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Página de Dúvidas</a>
+                                <a href="Duvidasfrequentes" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Página de Dúvidas</a>
                             </div>
                         </div>
                     </div>

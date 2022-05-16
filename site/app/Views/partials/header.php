@@ -21,7 +21,7 @@
                 </ul>
             </div>
             <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                <a href="registrar-marca" class="btn btn-primary">Registre sua marca</a>
+                <a href="Registrarmarca" class="btn btn-primary">Registre sua marca</a>
             </div>
             <!--offcanvas menu start-->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
