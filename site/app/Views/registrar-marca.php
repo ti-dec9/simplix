@@ -45,13 +45,31 @@
                     <div class="col-lg-6 col-md-10">
                         <div class="section-heading text-center">
                             <h4 class="h5 text-primary">Registro da marca</h4>
-                            <h2>Informação aqui...</h2>
+                            <h2>Faça seu cadastro aqui!</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <p>Formulário aqui</p>
-                    <p>campos: nome(input), email(input), telefone(input), tipo de empresa(select) marca(filte)</p>
+                <div class="row justify-content-center">
+                    <form class="d-flex justify-content-center flex-column col-lg-4 col-12" action="">
+                        <label class="inputform" for="">Nome:</label>
+                        <input placeholder="Digite seu nome aqui" class="d-block" type="text">
+                        <label class="inputform" for="">Email:</label>
+                        <input placeholder="exemplo@exemplo.com" class="d-block" type="email">
+                        <label class="inputform" for="">Telefone:</label>
+                        <input placeholder="00 00000 0000" class="d-block"type="tel" name="" id="">
+                        <label class="inputform" for="">Tipo de Empresa:</label>
+                        <select class="d-block" name="" id="">
+                            <option value="">Empresa Pequena</option>
+                            <option value="">Empresa Grande</option>
+                        </select>
+                        <label class="inputform" for="">Marca:</label>
+                        <input placeholder="Sua marca" type="text">
+                        <div class="col-lg-12 d-flex justify-content-center" style="margin-top:32px ;">
+                            <div class="hero-subscribe-form-wrap d-md-block d-lg-block d-xl-block">
+                                <input type="submit" value="Enviar" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

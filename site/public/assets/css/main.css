@@ -435,6 +435,48 @@ svg {
 }
 
 
+input[type=text] {
+    border: 2px solid #071C4D;
+    border-radius: 4px;
+    padding: 8px 10px;
+  }
+
+  input[type=email] {
+    border: 2px solid #071C4D;
+    border-radius: 4px;
+    padding: 8px 10px;
+  }
+input[type=tel] {
+    border: 2px solid #071C4D;
+    border-radius: 4px;
+    padding: 8px 10px;
+  }
+
+  select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 2px solid #071C4D;
+    border-radius: 4px;
+  }
+
+  .inputform{
+      color:#195AF2;
+      font-weight:bold;
+  }
+@media (max-width: 992px) {
+    .imgmob{
+        width:80%;
+    }
+     
+ }
+
+
+ @media (max-width: 992px) {
+    .buttonmob{
+        margin:100px;
+    }
+     
+ }
 /* line 265, src/assets/scss/vendors/bootstrap.min.css */
 
 table {
@@ -61958,7 +62000,7 @@ screen and (max-height: 300px) {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     width: 100%;
-    height: 100%;
+    height: 480px;
     position: relative;
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
@@ -61966,7 +62008,12 @@ screen and (max-height: 300px) {
     transition-property: transform, -webkit-transform;
 }
 
-
+@media (max-width: 992px) {
+    .swiper-slide{
+        height: 610px;
+    }
+     
+ }
 /* line 13, src/assets/scss/vendors/swiper-bundle.min.css */
 
 .swiper-slide-invisible-blank {
@@ -67553,14 +67600,14 @@ li.setup-process-item:not(:last-child):before {
 /* line 2758, src/assets/scss/custom/_style.scss */
 
 .swiper-button-next {
-    right: -25px;
+    right: -58px;
 }
 
 
 /* line 2761, src/assets/scss/custom/_style.scss */
 
 .swiper-button-prev {
-    left: -25px;
+    left: -58px;
 }
 
 @media (min-width: 320px) and (max-width: 645px) {
@@ -68135,8 +68182,8 @@ li.setup-process-item:not(:last-child):before {
 .integration-list li .single-integration img {
     width: 100%;
     height: auto;
-    max-width: 35px;
-    max-height: 35px;
+    max-width: 100px;
+    max-height: 100px;
     margin: auto;
 }
 

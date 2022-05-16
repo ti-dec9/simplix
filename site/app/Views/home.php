@@ -34,16 +34,19 @@
                                 NO INPI EM * <span style="background-color: #071C4D; color:white;">48 HORAS</span></h1>
                             <h3>EM 10X SEM JUROS!</h3>
                             <i>* 48 HORAS ÚTEIS</i>
-                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0  d-md-block d-lg-block d-xl-block">
+                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
                                 <input type="submit" value="Quero registrar minha marca" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                            </div>
+                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-block d-md-none d-lg-none d-xl-none">
+                                <input type="submit" value="Registrar Marca" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-5 mt-4 mt-xl-0">
                         <div class="hero-img-wrap position-relative" data-aos="fade-left">
                             <!--animated shape start-->
-                           <div>
-                               <img src="assets/img/foguete.gif" alt="">
+                           <div class="text-center d-flex justify-content-center">
+                               <img class="imgmob" src="assets/img/foguete.gif" alt="">
                            </div>
                             <!--animated shape end-->
                             <!-- <div class="hero-img-wrap position-relative">
@@ -167,10 +170,10 @@
             </div>
         </div>
         </div>
-        <div class="container d-flex">
-            <div class="row justify-content-center align-center">
+        <div class="d-flex" style="justify-content:center; align-items: center;">
+            <div class="row justify-content-center align-center" style="margin:0;">
                 <div class="col-lg-12 d-flex justify-content-center">
-                    <img src="assets/img/passoapasso.gif" alt="">
+                    <img class="imgmob" src="assets/img/passoapasso.gif" alt="">
                 </div>
                 <div class="col-lg-4 text-center card-passo justify-content-center">
                     <h5>SOLICITE SUA BUSCA PRÉVIA</h5>
@@ -369,8 +372,11 @@
                     <div class="d-flex col-lg-12 justify-content-center" style="margin-top: 45px;">
                         <div class="row justify-content-center">
                             <h5 class="text-center"><i>* VALORES POR PROCESSO DE PEDIDO DE REGISTRO DE MARCA JUNTO AO INPI.</i></h5>
-                        <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-md-block d-lg-block d-xl-block">
+                        <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
                             <input type="submit" value="Quero registrar minha marca" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                        </div>
+                        <div class="text-center hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-block d-md-none d-lg-none d-xl-none">
+                            <input type="submit" value="Registrar Marca" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
                         </div>
                     </div>
                     </div>
@@ -382,9 +388,9 @@
         <!--integration section start-->
         <section class="integration-section  pb-120">
             <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
+                <div class="row align-items-center justify-content-center">
                     <div class="col-lg-12 col-md-12">
-                        <div class="section-heading">
+                        <div class="section-heading text-center">
                             <h4 class="h5 text-primary">Marcas</h4>
                             <h2>Algumas empresas que confiaram em nós!</h2>
                         </div>
@@ -401,83 +407,51 @@
                             <ul class="integration-list list-unstyled mb-0">
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/airbnb.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/easypet.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Easy Pet</h6>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/figma.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/fertec.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Fertec</h6>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/facebook.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/lupulino.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Lupulino</h6>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/sales-force.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/mitburger.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Mit Burger</h6>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/atlassian.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/sabichinhos.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Sabichinhos</h6>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/dropbox-2.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/torre.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Torre Segurança</h6>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-integration">
-                                        <img src="assets/img/integations/dynamic-365.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/erecruiter.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/evernote.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/google-icon.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/slack.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="single-integration">
-                                        <img src="assets/img/integations/google-analytics.png" alt="integration" class="img-fluid">
-                                        <h6 class="mb-0 mt-4">{Name}</h6>
+                                        <img src="assets/img/integations/vetvr.png" alt="integration" class="img-fluid">
+                                        <h6 class="mb-0 mt-4">Vet VR</h6>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                       <img src="assets/img/negocios.gif" alt="">
+                    <div class="col-lg-5 justify-content-center d-flex">
+                       <img class="imgmob" src="assets/img/negocios.gif" alt="">
                     </div>
                 </div>
             </div>
@@ -491,8 +465,7 @@
                     <div class="col-md-10 col-lg-6">
                         <div class="section-heading text-center" data-aos="fade-up">
                             <h4 class="h5 text-warning text-primary">Depoimentos</h4>
-                            <h2>Depoimentos</h2>
-                            <p>Uniquely promote adaptive quality vectors rather than stand-alone e-markets. pontificate alternative architectures whereas iterate.</p>
+                            <h2>O que nossos clientes acham de nós?</h2>
                         </div>
                     </div>
                 </div>
@@ -501,110 +474,102 @@
                         <div class="position-relative w-100" data-aos="fade-up" data-aos-delay="50">
                             <div class="swiper-container testimonialSwiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
-                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                    <div class="swiper-slide p-5 rounded-custom position-relative" style="background-color:white ; color:black;">
                                         <div class="d-flex mb-32 align-items-center">
-                                            <img src="assets/img/testimonial/1.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Mr.Rupan Oberoi</h6>
-                                                <small>Founder and CEO at Amaara Herbs</small>
-                                            </div>
+                                                <img src="assets/img/testimonial/thales.png" class="img-fluid me-3 rounded" width="100" alt="user">
+                                                <div class="author-info" style="margin-top:12px ;">
+                                                    <h6 class="mb-0 pl-2" style="color:black ;">Thales Dias</h6>
+                                                    <small>DEC 9 Marketing</small>
+                                                    <img style="display:block; margin-left: -8px;" width="40%" src="assets/img/testimonial/5 estrelas.png" alt="">   
+                                                </div>
                                         </div>
                                         <blockquote>
-                                            <h6>The Best Template You Got to Have it!</h6>
-                                            Globally network long term high impact schemas cross-media infrastructures rather than ethical core competencies.
+                                            <h6 style="color:black ;">A Simplix é simplesmente FANTÁSTICA!</h6>
+                                            Já tentei fazer o registro antes sozinho, mas não deu certo. RS. Mas com a Simplix foi fácil e simples, e quando tinha dúvidas, eles me respondiam em pouco tempo pelo e-mail.
+                                            A filosofia de trabalho de deixar tudo mais descomplicado ajuda muito na hora de fazer o pedido de registro de marca.
+                                            Empresa super moderna e preparada. Confio neles de olhos fechados e indico a todos os meus amigos e clientes.
                                         </blockquote>
-                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        </ul>
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
-                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                    <div class="swiper-slide p-5 rounded-custom position-relative" style="background-color:white ; color:black;">
                                         <div class="d-flex mb-32 align-items-center">
-                                            <img src="assets/img/testimonial/3.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Oberoi R.</h6>
-                                                <small>CEO at Herbs</small>
-                                            </div>
+                                                <img src="assets/img/testimonial/lia.png" class="img-fluid me-3 rounded" width="100" alt="user">
+                                                <div class="author-info" style="margin-top:12px ;">
+                                                    <h6 class="mb-0 pl-2" style="color:black ;">Lia Ribeiro</h6>
+                                                    <small>Luppulino</small>
+                                                    <img style="display:block; margin-left: -8px;" width="40%" src="assets/img/testimonial/5 estrelas.png" alt="">   
+                                                </div>
                                         </div>
                                         <blockquote>
-                                            <h6>Embarrassed by the First Version.</h6>
-                                            Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.
+                                            <h6 style="color:black ;"> Com certeza quando precisar novamente, vou contratar a Simplix.</h6>
+                                            Empresa séria e descomplicada, como tem de ser. Conseguiu executar o serviço muito rápido e depois foi só fazer o acompanhamento, que preferi pagar a parte. O registro da minha marca saiu em menos de um ano e não tive problemas, além disso, foi cobrado um preço justo e honesto, e a forma de pagamento foi um diferencial pra eu poder fechar.
                                         </blockquote>
-                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        </ul>
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
-                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                    <div class="swiper-slide p-5 rounded-custom position-relative" style="background-color:white ; color:black;">
                                         <div class="d-flex mb-32 align-items-center">
-                                            <img src="assets/img/testimonial/2.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Mr.Rupan Oberoi</h6>
-                                                <small>Founder and CEO</small>
-                                            </div>
+                                                <img src="assets/img/testimonial/josé.png" class="img-fluid me-3 rounded" width="100" alt="user">
+                                                <div class="author-info" style="margin-top:12px ;">
+                                                    <h6 class="mb-0 pl-2" style="color:black ;">José Hugo de Camargo</h6>
+                                                    <small>Torre Segurança</small>
+                                                    <img style="display:block; margin-left: -8px;" width="40%" src="assets/img/testimonial/5 estrelas.png" alt="">   
+                                                </div>
                                         </div>
                                         <blockquote>
-                                            <h6>Amazing Quiety template!</h6>
-                                            Appropriately negotiate interactive niches rather than parallel strategic theme premium total linkage areas.
+                                            <h6 style="color:black ;">A experiência de trabalhar com a Simplix foi muito boa, nada a reclamar.
+                                            </h6>
+                                            Resolvi tudo pelo computador, sem complicação e sem enrolação. Me mandaram a pesquisa, fiz o cadastro, o pagamento e depois só aguardei o registro sair. Realmente bem tranquilo e simples.
+Recomendo a todos!
+
                                         </blockquote>
-                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        </ul>
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
-                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                    <div class="swiper-slide p-5 rounded-custom position-relative" style="background-color:white ; color:black;">
                                         <div class="d-flex mb-32 align-items-center">
-                                            <img src="assets/img/testimonial/4.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Joan Dho</h6>
-                                                <small>Founder and CTO</small>
-                                            </div>
+                                                <img src="assets/img/testimonial/carla.png" class="img-fluid me-3 rounded" width="100" alt="user">
+                                                <div class="author-info" style="margin-top:12px ;">
+                                                    <h6 class="mb-0 pl-2" style="color:black ;">Carla Souza</h6>
+                                                    <small>Easy Pet</small>
+                                                    <img style="display:block; margin-left: -8px;" width="40%" src="assets/img/testimonial/5 estrelas.png" alt="">   
+                                                </div>
                                         </div>
                                         <blockquote>
-                                            <h6>Best Template for SAAS Company!</h6>
-                                            Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.
+                                            <h6 style="color:black ;">Foi super simples e rápido!</h6>
+                                            Já tinha feito outro registro com outra empresa, mas ter encontrado a Simplix foi uma surpresa ótima e a forma simples de trabalho me ajudou a ter minha marca registrada, e o melhor, com um valor bem mais em conta.
+                                            Indico para todos os empresários, que assim como eu, querem proteger sua marca de forma mais fácil e sem muitos termos técnicos.
+
                                         </blockquote>
-                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        </ul>
                                     </div>
-                                    <div class="swiper-slide bg-custom-light text-white  p-5 rounded-custom position-relative">
-                                        <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100" class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                    <div class="swiper-slide p-5 rounded-custom position-relative" style="background-color:white ; color:black;">
                                         <div class="d-flex mb-32 align-items-center">
-                                            <img src="assets/img/testimonial/5.jpg" class="img-fluid me-3 rounded" width="60" alt="user">
-                                            <div class="author-info">
-                                                <h6 class="mb-0">Ranu Mondal</h6>
-                                                <small>Lead Developer</small>
-                                            </div>
+                                                <img src="assets/img/testimonial/bruno.png" class="img-fluid me-3 rounded" width="100" alt="user">
+                                                <div class="author-info" style="margin-top:12px ;">
+                                                    <h6 class="mb-0 pl-2" style="color:black ;">Bruno Freitas</h6>
+                                                    <small>Veterinária Volta Redonda</small>
+                                                    <img style="display:block; margin-left: -8px;" width="40%" src="assets/img/testimonial/5 estrelas.png" alt="">   
+                                                </div>
                                         </div>
                                         <blockquote>
-                                            <h6>It is undeniably good!</h6>
-                                            Rapidiously supply client-centric e-markets and maintainable processes progressively extend process-centric portals engineer
+                                            <h6 style="color:black ;">Recomendo muito a Simplix pra todos que conheço!
+                                            </h6>
+                                            Tenho minha empresa há muitos anos e diversas empresas já me ligaram oferecendo registro de marcas, algumas até sendo deselegantes e agressivas.  Não tive uma boa experiência anteriormente. 
+                                            Mas quando me indicaram a Simplix, arrisquei e finalmente tive uma boa experiência. Foi tudo muito rápido e tive meu pedido feito em menos de 24h.
                                         </blockquote>
-                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide p-5 rounded-custom position-relative" style="background-color:white ; color:black;">
+                                        <div class="d-flex mb-32 align-items-center">
+                                                <img src="assets/img/testimonial/david.png" class="img-fluid me-3 rounded" width="100" alt="user">
+                                                <div class="author-info" style="margin-top:12px ;">
+                                                    <h6 class="mb-0 pl-2" style="color:black ;">David Vieira e Rebecca Oliveira
+                                                    </h6>
+                                                    <small>Mit Burguer</small>
+                                                    <img style="display:block; margin-left: -8px;" width="40%" src="assets/img/testimonial/5 estrelas.png" alt="">   
+                                                </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6 style="color:black ;">Agradecemos à toda equipe da Simplix por tornar tudo mais rápido e fácil.
+
+                                            </h6>
+                                            Quando decidimos registrar nossa marca, procuramos uma empresa que fosse moderna e pra nossa sorte, encontramos a Simplix. Todo o processo foi resolvido digitalmente e bem tranquilo, além de ter um ótimo preço e dividir no cartão.
+Nossa marca está registrada no INPI e estamos aliviados, sabendo que a marca MIT BURGUER é realmente nossa. 
+                                        </blockquote>
                                     </div>
                                 </div>
                             </div>
@@ -615,8 +580,8 @@
                 </div>
             </div>
         </section>
-        <!--customer review slider section end-->
 
+        <!--customer review slider section end-->
         <!--faq section start-->
         <section class="faq-section ptb-120 bg-light">
             <div class="container">
@@ -628,7 +593,7 @@
                         </div>
                         <div class="col-lg-12 d-flex justify-content-center">
                             <div class="hero-subscribe-form-wrap d-md-block d-lg-block d-xl-block">
-                                <input type="submit" value="Acessar página de dúvidas" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                                <input type="submit" value="Acessar dúvidas" data-wait="Por favor, aguarde..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
                             </div>
                         </div>
                     </div>
@@ -659,7 +624,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="text-center mt-4 mt-lg-0 mt-md-0">
-                            <img src="assets/img/faq.gif" alt="faq" class="img-fluid">
+                            <img class="imgmob" src="assets/img/faq.gif" alt="faq" class="img-fluid">
                         </div>
                     </div>
                 </div>
