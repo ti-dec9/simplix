@@ -477,6 +477,79 @@ input[type=tel] {
     }
      
  }
+
+ .text-claro{
+    color:#71C3D1 !important;
+}
+
+
+.cardinicio{
+    background: 
+    linear-gradient(to right, #071C4D, #71C3D1) border-box;
+    display:flex;
+    border:solid 1rem transparent;
+    position: relative;
+    border-radius:10px 0 0 10px;
+    align-items: center;
+    padding:32px;
+}
+.cardinicio h1{
+    color:white !important;
+}
+.cardinicio_mob{
+    background: 
+    linear-gradient(to right, #071C4D, #71C3D1) border-box;
+    display:flex;
+    border:solid 1rem transparent;
+    position: relative;
+    border-radius:10px 10px 0 0;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+    padding:8px;
+}
+.cardinicio_mob h1{
+    color:white !important;
+}
+.cardtexto{
+    background-color:#CFD0D1;
+    height:10rem;
+    display:flex;
+    padding-left:20px;
+    padding-right:20px;
+    align-items:center;
+}
+.cardtexto_mob{
+    background-color:#CFD0D1;
+    height:10rem;
+    display:flex;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:48px;
+    align-items:center;
+    text-align:center;
+}
+.cardicone{
+    background-color:#CFD0D1;
+    border:solid 1 rem;
+    border-radius:0 10px 10px 0;
+    display:flex;
+    align-items:center;
+    height:10rem;
+    padding:24px;
+}
+.cardicone_mob{
+    background-color:#CFD0D1;
+    border:solid 1 rem;
+    border-radius:0 0 10px 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    height:10rem;
+    padding:12px;
+}
+
 /* line 265, src/assets/scss/vendors/bootstrap.min.css */
 
 table {
@@ -4433,8 +4506,9 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    
+  background: 
+    linear-gradient(to right, #071C4D, #71C3D1) border-box;
 }
 
 
@@ -4442,8 +4516,7 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
+    transform: scale(110%);
 }
 
 
@@ -4452,8 +4525,6 @@ fieldset:disabled .btn {
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
     -webkit-box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
     box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
@@ -4467,8 +4538,6 @@ fieldset:disabled .btn {
 .btn-primary:active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0a58ca;
-    border-color: #0a53be;
 }
 
 
@@ -4489,8 +4558,6 @@ fieldset:disabled .btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
 }
 
 
@@ -63899,7 +63966,6 @@ a:hover,
 .btn-primary {
     color: var(--bs-white);
     background-color: var(--bs-primary);
-    border-color: var(--bs-primary);
     -webkit-box-shadow: 0 11px 18px -8px rgba(23, 92, 255, 0.6);
     box-shadow: 0 11px 18px -8px rgba(23, 92, 255, 0.6);
 }
@@ -63926,7 +63992,6 @@ a:hover,
 
 .btn-outline-primary {
     color: var(--bs-primary);
-    border-color: var(--bs-primary);
 }
 
 
@@ -63935,7 +64000,6 @@ a:hover,
 .btn-primary:hover {
     color: var(--bs-white);
     background-color: var(--bs-primary-dark);
-    border-color: var(--bs-primary-dark);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
