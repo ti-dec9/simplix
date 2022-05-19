@@ -84,21 +84,21 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6">
-                        <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
+                        <div class="position-relative single-pricing-wrap rounded-custom custom-shadow p-5 mb-4 mb-lg-0" style="background-color:#071C4D;">
                             <div class="pricing-header mb-32">
-                                <h3 class="package-name text-primary d-block">Pequeno Porte</h3>
-                                <h6 class="">M.E., E.P.P, MEI E PESSOA FÍSICA.</h6>
-                                <p>DE R$1.200,00 POR</p>
-                                <h2>R$ 800,00*</h2>
+                                <h3 class="package-name d-block" style="color:#71C3D1;">Pequeno Porte</h3>
+                                <h6 class="" style="color:#71C3D1;">M.E., E.P.P, MEI E PESSOA FÍSICA.</h6>
+                                <p style="color:white;">DE R$1.200,00 POR</p>
+                                <h2 style="color:#71C3D1;">R$ 800,00*</h2>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> CADASTRO NO INPI</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> PAGAMENTO DA TAXA INICIAL</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ENTRADA NO PROCESSO
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-claro me-2"></i> CADASTRO NO INPI</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-claro me-2"></i> PAGAMENTO DA TAXA INICIAL</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-claro me-2"></i> ENTRADA NO PROCESSO
                                     </li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ACESSO A PLATAFORMA SIMPLIX</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> SUPORTE POR E-MAIL</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-claro me-2"></i> ACESSO A PLATAFORMA SIMPLIX</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-claro me-2"></i> SUPORTE POR E-MAIL</li>
                                 </ul>
                             </div>
                            
@@ -111,22 +111,22 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="position-relative single-pricing-wrap rounded-custom bg-white custom-shadow p-5 mb-4 mb-lg-0">
+                        <div class="position-relative single-pricing-wrap rounded-custom  custom-shadow p-5 mb-4 mb-lg-0" style="background-color:#71C3D1;">
                             <div class="pricing-header mb-32">
                                 <h3 class="package-name text-primary d-block">Grande Porte</h3>
                                 <h6 class="">DEMAIS PORTES.</h6>
-                                <p>DE R$1.700,00 POR</p>
+                                <p class="text-white">DE R$1.700,00 POR</p>
                                 <h2>R$ 1.100,00*
                                 </h2>
                             </div>
                             <div class="pricing-info mb-4">
                                 <ul class="pricing-feature-list list-unstyled">
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> CADASTRO NO INPI</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> PAGAMENTO DA TAXA INICIAL</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ENTRADA NO PROCESSO
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-primary me-2"></i> CADASTRO NO INPI</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-primary me-2"></i> PAGAMENTO DA TAXA INICIAL</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-primary me-2"></i> ENTRADA NO PROCESSO
                                     </li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> ACESSO A PLATAFORMA SIMPLIX</li>
-                                    <li><i class="fas fa-circle fa-2xs text-primary me-2"></i> SUPORTE POR E-MAIL</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-primary me-2"></i> ACESSO A PLATAFORMA SIMPLIX</li>
+                                    <li class="text-white"><i class="fas fa-circle fa-2xs text-primary me-2"></i> SUPORTE POR E-MAIL</li>
                             </div>
                             
                             <!--pattern start-->
@@ -139,6 +139,12 @@
                     <div class="d-flex col-lg-12 justify-content-center" style="margin-top: 45px;">
                         <div class="row justify-content-center">
                             <h5 class="text-center"><i>* VALORES POR PROCESSO DE PEDIDO DE REGISTRO DE MARCA JUNTO AO INPI.</i></h5>
+                            <div class="text-center hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
+                                <a href="Registrarmarca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Quero registrar minha marca</a>
+                            </div>
+                            <div class="text-center hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-block d-md-none d-lg-none d-xl-none">
+                                <a href="Registrarmarca" class="btn btn-primary mt-3 mt-lg-0 mt-md-0" style="font-size:25px;">Registre sua marca</a>
+                            </div>
                     </div>
                     </div>
                 </div>
