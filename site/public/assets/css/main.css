@@ -495,6 +495,7 @@ input[type=tel] {
 }
 .cardinicio h1{
     color:white !important;
+    font-size:32px;
 }
 .cardinicio_mob{
     background: 
@@ -525,7 +526,7 @@ input[type=tel] {
     display:flex;
     padding-left:20px;
     padding-right:20px;
-    padding-top:48px;
+    padding-top:96px;
     align-items:center;
     text-align:center;
 }
@@ -547,7 +548,7 @@ input[type=tel] {
     justify-content:center;
     text-align:center;
     height:10rem;
-    padding:12px;
+    padding-top:54px;
 }
 
 /* line 265, src/assets/scss/vendors/bootstrap.min.css */
@@ -67252,7 +67253,7 @@ li.setup-process-item:not(:last-child):before {
 /* line 2513, src/assets/scss/custom/_style.scss */
 
 .icon-box {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 

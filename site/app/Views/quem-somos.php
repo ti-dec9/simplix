@@ -71,58 +71,58 @@
                             <!--<h4 class="h5 text-primary">Vantagens?</h4>-->
                             <h2>VANTAGENS DE REGISTRAR SUA MARCA COM A SIMPLIX:</h2>
                             <p>Somos uma plataforma especializada em registro de marcas junto ao INPI. Trabalhamos com facilidade, velocidade e segurança para que você tenha a sua marca registrada.</p>
-                            <ul class="list-unstyled mt-5">
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fas fa-bezier-curve text-white"></i>
+                            <ul class="mt-5 list-unstyled">
+                                <li class="d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fas fa-bezier-curve"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Facilidade</h3>
                                     </div>
                                 </li>
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fa-solid fa-gauge-max text-white"></i>
+                                <li class=" d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fa-solid fa-gauge-max"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Rapidez</h3>
                                     </div>
                                 </li>
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fa-solid fa-lock text-white"></i>
+                                <li class=" d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fa-solid fa-lock"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Segurança</h3>
                                     </div>
                                 </li>
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fa-solid fa-circle-dollar text-white"></i>
+                                <li class=" d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fa-solid fa-circle-dollar"></i>
                                     </div>
                                     <div class="icon-content">
-                                        <h3 class="h5">Pagamento Facilitao</h3>
+                                        <h3 class="h5">Pagamento Facilitado</h3>
                                     </div>
                                 </li>
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fa-solid fa-xmark text-white"></i>
+                                <li class=" d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fa-solid fa-xmark"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Sem Burocracia</h3>
                                     </div>
                                 </li>
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fas fa-fingerprint text-white"></i>
+                                <li class=" d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fas fa-fingerprint"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Sem consulta ao SPC / Serasa</h3>
                                     </div>
                                 </li>
-                                <li class="d-flex align-items-start mb-4">
-                                    <div class="icon-box bg-primary rounded me-4">
-                                        <i class="fa-solid fa-laptop-mobile text-white"></i>
+                                <li class="d-flex align-items-start">
+                                    <div class="rounded icon-box bg-primary me-4">
+                                        <i class="text-white fa-solid fa-laptop-mobile"></i>
                                     </div>
                                     <div class="icon-content">
                                         <h3 class="h5">Acompanhamento pela plataforma</h3>
@@ -134,20 +134,23 @@
                     <div class="col-lg-5 col-md-7">
                         <div class="feature-img-wrap position-relative d-flex flex-column align-items-end">
                             <!-- <ul class="img-overlay-list list-unstyled position-absolute">
-                                <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="50">
-                                    <i class="fas fa-check bg-primary text-white rounded-circle"></i>
+                                <li class="p-3 bg-white rounded shadow-sm d-flex align-items-center" data-aos="fade-up" data-aos-delay="50">
+                                    <i class="text-white fas fa-check bg-primary rounded-circle"></i>
                                     <h6 class="mb-0">Create a Free Account</h6>
                                 </li>
-                                <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="100">
-                                    <i class="fas fa-check bg-primary text-white rounded-circle"></i>
+                                <li class="p-3 bg-white rounded shadow-sm d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+                                    <i class="text-white fas fa-check bg-primary rounded-circle"></i>
                                     <h6 class="mb-0">Install Our Tracking Pixel</h6>
                                 </li>
-                                <li class="d-flex align-items-center bg-white rounded shadow-sm p-3" data-aos="fade-up" data-aos-delay="150">
-                                    <i class="fas fa-check bg-primary text-white rounded-circle"></i>
+                                <li class="p-3 bg-white rounded shadow-sm d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
+                                    <i class="text-white fas fa-check bg-primary rounded-circle"></i>
                                     <h6 class="mb-0">Start Tracking your Website</h6>
                                 </li>
                             </ul> -->
-                            <img style="margin-bottom:12px;" src="assets/img/feature-img3.jpg" alt="feature image" class="img-fluid rounded-custom">
+                            <div class="text-center d-flex justify-content-center" style="margin:auto ;">
+                                <img src="assets/img/typing.gif" alt="feature image" class="img-fluid rounded-custom">
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
